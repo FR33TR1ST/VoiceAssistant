@@ -24,7 +24,6 @@ import time
 import warnings
 import torch
 
-DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 model = whisper.load_model("medium.en", device=device)
 
 def transform():
@@ -51,12 +50,6 @@ def speaking(message):
     engine.runAndWait()
     
 def whisper_ai(model,device):
-    audio = whisper.load_audio('voice.wav')
-    audio = whisper.pad_or_trim(audio)
-    mel = whisper.log_mel_spectrogram(audio).to(model.device)
-    _, probs = model.detect_language(mel)
-    options = whisper.DecodingOptions(language="en", without_timestamps=True, fp16 = False)
-    result = whisper.decode(model, mel, options)
     result = model.transcribe("voice.wav")
     return result['text']
     
@@ -124,7 +117,7 @@ def querying():
         s = transform().lower()
         if "james"in s:
             Record_audio()
-            q = whisper_ai(model,DEVICE)
+            q = whisper_ai(model).lower()
             print(q)
             if "start youtube" in q:
                 speaking("Starting youtube. Just a second")
