@@ -24,6 +24,7 @@ import time
 import warnings
 import torch
 
+device = "cuda" if torch.cuda.is_available() else "cpu"
 model = whisper.load_model("medium.en", device=device)
 
 def transform():
