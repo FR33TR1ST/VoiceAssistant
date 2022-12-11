@@ -7,4 +7,8 @@ I hope this will be usefull\
  ffmpeg:\
  choco install ffmpeg\
  and Whisper:\
- pip install git+https://github.com/openai/whisper.git
+ pip install git+https://github.com/openai/whisper.git \
+ 
+ U can try differents size models:\
+'tiny.en', 'base.en', 'small.en', 'medium.en' \
+The large one its just for the multi-languagual usage
