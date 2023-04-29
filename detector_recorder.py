@@ -9,8 +9,8 @@ pa = pyaudio.PyAudio()
 stream = pa.open(format=pyaudio.paInt16, channels=1, rate=sample_rate, input=True, frames_per_buffer=chunk_size)
 
 # set up recording parameters
-threshold = 0.003  # adjust this to set the sensitivity of the recording
-max_silence = 2.0  # adjust this to set the maximum length of a recording in seconds
+threshold = 0.001  # adjust this to set the sensitivity of the recording
+max_silence = 2.0  # adjust this to set the maximum silence in seconds
 
 # start recording
 recording = False
