@@ -1,0 +1,15 @@
+# Required python modules 
+# pip install -r requirements.txt 
+
+pyttsx3
+SpeechRecognition
+pyaudio
+pywhatkit
+yfinance
+pyjokes
+git+https://github.com/openai/whisper.git
+gradio
+youtube-search-python
+
+# MacOS seems to need this for pyttsx3
+pyobjc == 9.0.1
