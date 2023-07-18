@@ -109,79 +109,71 @@ def querying():
             Record_audio()
             q = whisper_ai(model).lower()
             print(q)
-            #TODO: Make a Python 3.10 Version with Switch Statement and keep this one as 3.9/Legacy
-            if "start youtube" in q:
-                speaking("Starting youtube. Just a second")
-                webbrowser.open("https://www.youtube.com")
-                continue
-
-            elif "start webbrowser" in q:
-                speaking("opening browser")
-                webbrowser.open("https://www.google.com")
-                continue
-
-            elif "what day is it" in q:
-                query_day()
-                continue
-
-            elif "what time is it" in q:
-                query_time()
-                continue
-
-            elif "shut down" in q or 'shutdown' in q:
-                speaking("ok I am shuting down")
-                break
-
-            elif "from wikipedia" in q:
-                speaking("checking wikipedia")
-                q = q.replace("wikipedia", "")
-                result = wikipedia.summary(q,sentences=2)
-                speaking("found on wikipedia")
-                speaking(result)
-                continue
-
-            elif "your name" in q:
-                speaking("I am David. Your Voice Asistant")
-                continue
-
-            elif "search web" in q:
-                q = q.replace("search web","")
-                pywhatkit.search(q)
-                speaking("this is what i found")
-                continue
-
-            elif "play" in q:
-                q = q.replace("play","")
-                speaking(f"playing {q}")
-                pywhatkit.playonyt(q)
-                continue
-
-            elif "joke" in q:
-                speaking(pyjokes.get_joke())
-                continue
-
-            elif "stock price" in q:
-                search = q.split("of")[-1].strip()
-                lookup = {"apple":"AAPL",
-                         "amazon":"AMZN",
-                         "google":"GOOGL"}
-                try:
-                    stock = lookup[search]
-                    stock = yf.Ticker(stock)
-                    currentprice = stock.info["regularMarketPrice"]
-                    speaking(f"found it, the price for {search} is {currentprice}")
-                    continue
-                except:
-                    speaking(f"sorry I have no data for {search}")
-                continue
-            elif 'play on youtube' in q:
-                search = q.split('youtube')[-1].strip()
-                videoSearch = VideosSearch(search, limit=1)
-                videoSearch = VideosSearch.result()
-                video_link = videosSearch['result'][0]['link']
-                video_name = videosSearch['result'][0]['title']
-                print(f'Playing {video_name}')
-                webbrowser.open(video_link)
-                continue
-                #TODO: Default Case that resets the process and says "I'm sorry, I didn't quite understand - please use one of my Listed Functions
+            match q:
+            	case "start youtube":
+            		speaking("Starting youtube. Just a second")
+            		webbrowser.open("https://www.youtube.com")
+            		continue
+            	case "start webbrowser":
+            		speaking("opening browser")
+            		webbrowser.open("https://www.google.com")
+            		continue
+            	case "what day is it":
+            		query_day()
+            		continue
+            	case "what time is it":
+            		query_time()
+            		continue
+            	case "shutdown":
+            		speaking("Ok I am shuting down")
+            		break
+            	case "from wikipedia":
+            		speaking("checking wikipedia")
+            		q = q.replace("wikipedia", "")
+            		result = wikipedia.summary(q,sentences=2)
+            		speaking("found on wikipedia")
+            		speaking(result)
+            		continue
+            	case "your name":
+            		speaking("I am James. Your Voice Asistant") 
+            		continue
+            	case "search web":
+            		q = q.replace("search web","")
+            		pywhatkit.search(q)
+            		speaking("this is what i found")
+            		continue
+            	case "play":
+            		q = q.replace("play","")
+            		speaking(f"playing {q}")
+            		pywhatkit.playonyt(q)
+            		continue
+            	case "joke":
+            		speaking(pyjokes.get_joke())
+            		continue	
+            	case "stock price":
+            		search = q.split("of")[-1].strip()
+            		lookup = {"apple":"AAPL",
+            				 "amazon":"AMZN",
+            				 "google":"GOOGL"}
+            		try:
+            			stock = lookup[search]
+            			stock = yf.Ticker(stock)
+            			currentprice = stock.info["regularMarketPrice"]
+            			speaking(f"found it, the price for {search} is {currentprice}")
+            			continue
+            		except:
+            			speaking(f"sorry I have no data for {search}")
+            		continue
+            	case "play on youtube":
+            		search = q.split('youtube')[-1].strip()
+            		videoSearch = VideosSearch(search, limit=1)
+            		videoSearch = VideosSearch.result()
+            		video_link = videosSearch['result'][0]['link']
+            		video_name = videosSearch['result'][0]['title']
+            		print(f'Playing {video_name}')
+            		webbrowser.open(video_link)
+            		continue
+            	case _:
+            		speaking("I apologize, I was not able to map a function to your request. Please try something else.")
+            		continue
 querying()
