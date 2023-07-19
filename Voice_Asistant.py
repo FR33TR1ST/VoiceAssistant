@@ -1,12 +1,3 @@
-# !pip install pyttsx3
-# !pip install SpeechRecognition
-# !pip install pyaudio
-# !pip install pywhatkit
-# !pip install yfinance
-# !pip install pyjokes
-# !pip install git+https://github.com/openai/whisper.git
-# !pip install gradio
-# !pip install youtube-search-python
 import pyttsx3
 import speech_recognition as sr
 import pyaudio
@@ -56,9 +47,7 @@ def whisper_ai(model):
     
 def query_day():
     day = datetime.date.today()
-    # print(day)
     weekday = day.weekday()
-    # print(weekday)
     mapping = {
         0:'Monday',1:'Tuesday',2:'Wednesday',3:'Thursday',4:'Friday',5:'Saturday',6:'Sunday'
     }
@@ -71,8 +60,8 @@ def query_time():
     time = datetime.datetime.now().strftime("%H:%M:%S")
     speaking(f"It is {time[0:2]} o'clock and {time[3:5]} minutes")
     
-def whatsup():
-    speaking("""Hi, my name is James. How can i help you""")
+def startup():
+    speaking("""Hi, my name is James; I'm a Virtual Assistant. How can I help you""")
     
 def Record_audio():
     CHUNK = 1024
@@ -112,7 +101,7 @@ def Record_audio():
     wf.close()
     
 def querying():
-    whatsup()
+    startup()
     start = True
     while(start):
         s = transform().lower()
@@ -120,6 +109,7 @@ def querying():
             Record_audio()
             q = whisper_ai(model).lower()
             print(q)
+            #TODO: Make a Python 3.10 Version with Switch Statement and keep this one as 3.9/Legacy
             if "start youtube" in q:
                 speaking("Starting youtube. Just a second")
                 webbrowser.open("https://www.youtube.com")
@@ -193,5 +183,5 @@ def querying():
                 print(f'Playing {video_name}')
                 webbrowser.open(video_link)
                 continue
-                
+                #TODO: Default Case that resets the process and says "I'm sorry, I didn't quite understand - please use one of my Listed Functions
 querying()
