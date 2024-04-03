@@ -10,6 +10,10 @@ pyjokes
 git+https://github.com/openai/whisper.git
 gradio
 youtube-search-python
+torch
+torchvision
+torchaudio
+wikipedia
+numpy
 
-# MacOS seems to need this for pyttsx3
-pyobjc == 9.0.1
+# macOS seems to need this for pyttsx3
