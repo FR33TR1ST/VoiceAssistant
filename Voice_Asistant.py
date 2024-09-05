@@ -1,26 +1,23 @@
-import pyttsx3
-import speech_recognition as sr
-import pyaudio
-import webbrowser
 import datetime
-import pywhatkit
-import os
-import yfinance as yf
+import pyaudio
 import pyjokes
+import pyttsx3
+import pywhatkit
+import re
+import torch
+import wave
+import webbrowser
+import whisper
+import wikipedia
+import platform
+import speech_recognition as sr
+import yfinance as yf
+from translate import Translator
 from wikipedia import wikipedia
 from youtubesearchpython import VideosSearch
-import pyaudio
-import wave
-import whisper
-import gradio as gr
-import time
-import warnings
-import torch
 from managers import InputManager, VolumeManager
-from translate import Translator
-import re
 
-
+OS = platform.system()
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 MODEL = whisper.load_model("medium.en", device=DEVICE)
 
@@ -235,7 +232,7 @@ def querying():
                 speaking("Sorry, I cannot provide directions at the moment")
                 continue
             elif category == "volume":
-                volume_manager = VolumeManager()
+                volume_manager = VolumeManager(OS)
                 if "increase" in keywords:
                     string = re.search(r'-?\d+\.?\d*', user_input)
                     if string:

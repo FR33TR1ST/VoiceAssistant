@@ -1,5 +1,17 @@
 import re
 import subprocess
+import platform
+
+
+if platform.system() == "Windows":
+    from ctypes import cast, POINTER
+    from comtypes import CLSCTX_ALL
+    from pycaw.pycaw import AudioUtilities, IAudioEndpointVolume
+
+    def get_default_audio_endpoint():
+        devices = AudioUtilities.GetSpeakers()
+        interface = devices.Activate(IAudioEndpointVolume._iid_, CLSCTX_ALL, None)
+        return cast(interface, POINTER(IAudioEndpointVolume))
 
 
 class InputManager:
@@ -63,31 +75,72 @@ class InputManager:
         return category, keywords
 
 
+
 class VolumeManager:
-    def increase(self, volume_percent):
-        subprocess.run(f"pactl set-sink-volume @DEFAULT_SINK@ +{volume_percent}%", shell=True)
+    def __init__(self, OS):
+        self.OS = OS
+
+
+
+    def increase(self, volume_percent, OS):
+        if OS == "Windows":
+            get_default_audio_endpoint().SetMasterVolumeLevelScalar(min(1.0, get_default_audio_endpoint().GetMasterVolumeLevelScalar() + volume_percent / 100), None)
+
+        elif OS == "Linux":
+            subprocess.run(f"pactl set-sink-volume @DEFAULT_SINK@ +{volume_percent}%", shell=True)
+        elif OS == "Darwin":
+            subprocess.run(f"osascript -e 'set volume output volume (output volume of (get volume settings) + {volume_percent})'", shell=True)
         return f'Volume increased by {volume_percent}%'
 
-    def decrease(self, volume_percent):
-        subprocess.run(f"pactl set-sink-volume @DEFAULT_SINK@ -{volume_percent}%", shell=True)
+    def decrease(self, volume_percent, OS):
+        if OS == "Windows":
+            get_default_audio_endpoint().SetMasterVolumeLevelScalar(min(0.0, get_default_audio_endpoint().GetMasterVolumeLevelScalar() - volume_percent / 100), None)
+        elif OS == "Linux":
+            subprocess.run(f"pactl set-sink-volume @DEFAULT_SINK@ -{volume_percent}%", shell=True)
+        elif OS == "Darwin":
+            subprocess.run(f"osascript -e 'set volume output volume (output volume of (get volume settings) - {volume_percent})'", shell=True)
         return f'Volume decreased by {volume_percent}%'
 
-    def mute(self):
-        subprocess.run("pactl set-sink-mute @DEFAULT_SINK@ toggle", shell=True)
+    def mute(self, OS):
+        if OS == "Windows":
+            if get_default_audio_endpoint().GetMute() == 0:
+                get_default_audio_endpoint().SetMute(1, None)
+            else:
+                get_default_audio_endpoint().SetMute(0, None)
+        elif OS == "Linux":
+            subprocess.run("pactl set-sink-mute @DEFAULT_SINK@ toggle", shell=True)
+        elif OS == "Darwin":
+            subprocess.run("osascript -e 'set volume output muted true'", shell=True)
 
-    def max(self):
-        subprocess.run("pactl set-sink-volume @DEFAULT_SINK@ 100%", shell=True)
+    def max(self, OS):
+        if OS == "Windows":
+            get_default_audio_endpoint().SetMasterVolumeLevelScalar(1.0, None)
+        elif OS == "Linux":
+            subprocess.run("pactl set-sink-volume @DEFAULT_SINK@ 100%", shell=True)
+        elif OS == "Darwin":
+            subprocess.run("osascript -e 'set volume output volume 100'", shell=True)
         return 'Volume at the maximum'
 
-    def is_muted(self):
-        if 'yes' in subprocess.check_output("pactl get-sink-mute @DEFAULT_SINK@", shell=True).decode('utf-8').strip():
-            return True
-        else:
-            return False
+    def is_muted(self, OS):
+        if OS == "Windows":
+            return 1 == get_default_audio_endpoint().GetMute()
+        elif OS == "Linux":
+            return 'yes' in subprocess.check_output("pactl get-sink-mute @DEFAULT_SINK@",
+                                                    shell=True).decode('utf-8').strip()
+        elif OS == "Darwin":
+            return 'yes' in subprocess.check_output("osascript -e 'output muted of (get volume settings)'",
+                                                    shell=True).decode('utf-8').strip()
 
-    def __str__(self):
-        if 'yes' in subprocess.check_output("pactl get-sink-mute @DEFAULT_SINK@", shell=True).decode('utf-8').strip():
-            return 'Muted'
-        else:
-            return subprocess.check_output("pactl get-sink-volume @DEFAULT_SINK@ | grep -oP '\\d+%' | head -1",
-                                           shell=True).decode('utf-8').rstrip('%').strip().rstrip('%') + '%'
+    def __str__(self, OS):
+        if OS == "Windows":
+            interface = AudioUtilities.GetSpeakers().Activate(IAudioEndpointVolume._iid_, CLSCTX_ALL, None)
+            return int(cast(interface, POINTER(IAudioEndpointVolume)).GetMasterVolumeLevelScalar() * 100)
+        elif OS == "Linux":
+            if 'yes' in subprocess.check_output("pactl get-sink-mute @DEFAULT_SINK@", shell=True).decode('utf-8').strip():
+                return 'Muted'
+            else:
+                return subprocess.check_output("pactl get-sink-volume @DEFAULT_SINK@ | grep -oP '\\d+%' | head -1",
+                                               shell=True).decode('utf-8').rstrip('%').strip().rstrip('%') + '%'
+        elif OS == "Darwin":
+            return subprocess.check_output("osascript -e 'output volume of (get volume settings)'",
+                                           shell=True).decode('utf-8').strip().rstrip('%') + '%'
