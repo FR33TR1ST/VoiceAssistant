@@ -114,21 +114,25 @@ def record_audio():
 def querying():
     input_manager = InputManager()
     volume_manager = VolumeManager(OS)
-    startup()
     start = True
+    startup()
+
     while start:
+        print('Listening...')
         s = transform().lower()
+
         if "james" in s:
             record_audio()
             user_input = whisper_ai(MODEL).lower()
             print(user_input)
+            df = input_manager.split_and_categorize(user_input)
 
             if "shut down" in user_input or 'shutdown' in user_input:
                     speaking("ok I am shuting down")
                     break
             
             df = input_manager.split_and_categorize(user_input)
-            
+
             # Loop through each row in the DataFrame
             for _, row in df.iterrows():
                 category = row['Predicted Intent']

@@ -157,18 +157,38 @@ class InputManager:
         return intentions
 
     def split_and_categorize(self, user_input):
-        #Splits and categorizes the user input into intents.
+        # Splits and categorizes the user input into intents.
         sentences_predict = self.extract_intentions(user_input)
         df_sentences = pd.DataFrame(sentences_predict, columns=['sentences'])
 
-        encodings = self.tokenizer(list(df_sentences['sentences']), truncation=True, padding=True, max_length=128)
-        new_dataset = NLU_Dataset(encodings, torch.tensor([0] * len(df_sentences)))
+        # Check if there are any sentences to process
+        if df_sentences.empty or df_sentences['sentences'].str.strip().eq('').all():
+            print("No valid sentences to categorize.")
+            return pd.DataFrame(columns=['sentences', 'Predicted Intent'])
 
-        predictions = self.trainer.predict(new_dataset)
-        new_preds = torch.tensor(predictions.predictions).argmax(axis=-1)
+        # Ensure the trainer is initialized
+        if not hasattr(self, 'trainer') or self.trainer is None:
+            try:
+                print("Trainer not initialized. Attempting to prepare the model...")
+                self._prepare_model()
+            except Exception as e:
+                print("Error initializing the model and trainer:", e)
+                return pd.DataFrame(columns=['sentences', 'Predicted Intent'])
 
-        df_sentences['Predicted Intent'] = [self.intent_labels[pred] for pred in new_preds]
-        return df_sentences
+        # Proceed with predictions if trainer is successfully initialized
+        try:
+            encodings = self.tokenizer(list(df_sentences['sentences']), truncation=True, padding=True, max_length=128)
+            new_dataset = NLU_Dataset(encodings, torch.tensor([0] * len(df_sentences)))
+
+            predictions = self.trainer.predict(new_dataset)
+            new_preds = torch.tensor(predictions.predictions).argmax(axis=-1)
+
+            df_sentences['Predicted Intent'] = [self.intent_labels[pred] for pred in new_preds]
+            return df_sentences
+
+        except Exception as e:
+            print("An error occurred during prediction:", e)
+            return pd.DataFrame(columns=['sentences', 'Predicted Intent'])
 
 
 class VolumeManager:
