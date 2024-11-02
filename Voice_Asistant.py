@@ -112,6 +112,8 @@ def record_audio():
 
 
 def querying():
+    input_manager = InputManager()
+    volume_manager = VolumeManager(OS)
     startup()
     start = True
     while start:
@@ -120,156 +122,175 @@ def querying():
             record_audio()
             user_input = whisper_ai(MODEL).lower()
             print(user_input)
-            input_manager = InputManager()
-            category, keywords = input_manager.classify_and_extract(user_input)
-            #TODO: Make a Python 3.10 Version with Switch Statement and keep this one as 3.9/Legacy
-            if category == "start":
-                if "google" in keywords:
-                    speaking("Starting google. Just a second")
-                    webbrowser.open("https://www.google.com")
-                    continue
-                elif "youtube" in keywords:
-                    speaking("Starting youtube. Just a second")
-                    webbrowser.open("https://www.youtube.com")
-                    continue
-                elif "amazon" in keywords:
-                    speaking("Starting amazon. Just a second")
-                    webbrowser.open("https://www.amazon.com")
-                    continue
-                elif "wikipedia" in keywords:
-                    speaking("Starting wikipedia. Just a second")
-                    webbrowser.open("https://www.wikipedia.org")
-                    continue
 
-            elif category == "media":
-                if "start" in keywords and "youtube" in keywords:
-                    speaking("Starting youtube. Just a second")
-                    webbrowser.open("https://www.youtube.com")
-                    continue
-                elif "play" in keywords or "watch" in keywords:
-                    search = ""
+            if "shut down" in user_input or 'shutdown' in user_input:
+                    speaking("ok I am shuting down")
+                    break
+            
+            df = input_manager.split_and_categorize(user_input)
+            
+            # Loop through each row in the DataFrame
+            for _, row in df.iterrows():
+                category = row['Predicted Intent']
+                sentence = row['sentences']
+                keywords = sentence.split()
+                #TODO: Make a Python 3.10 Version with Switch Statement and keep this one as 3.9/Legacy
+                if category == "Initialize":
+                    if "google" in keywords:
+                        speaking("Starting google. Just a second")
+                        webbrowser.open("https://www.google.com")
+                        continue
+                    elif "youtube" in keywords:
+                        speaking("Starting youtube. Just a second")
+                        webbrowser.open("https://www.youtube.com")
+                        continue
+                    elif "amazon" in keywords:
+                        speaking("Starting amazon. Just a second")
+                        webbrowser.open("https://www.amazon.com")
+                        continue
+                    elif "wikipedia" in keywords:
+                        speaking("Starting wikipedia. Just a second")
+                        webbrowser.open("https://www.wikipedia.org")
+                        continue
+
+                elif category == "YouTubeVideos" or category == "PlayMusic":
+                    if "start" in keywords and "youtube" in keywords:
+                        speaking("Starting youtube. Just a second")
+                        webbrowser.open("https://www.youtube.com")
+                        continue
+
+                    elif "play" in keywords or "watch" in keywords:
+                        search = ""
+                        try:
+                            search = " ".join(keywords[keywords.index("play") + 1:])
+                        except:
+                            search = " ".join(keywords[keywords.index("watch") + 1:])
+                        video_search = VideosSearch(search, limit=1)
+                        video_search = VideosSearch.result()
+                        video_link = video_search['result'][0]['link']
+                        video_name = video_search['result'][0]['title']
+                        print(f'Playing {video_name}')
+                        webbrowser.open(video_link)
+                        continue
+
+                elif category == "InternetSearch":
+                    if "wikipedia" in keywords:
+                        speaking("checking wikipedia")
+                        q = " ".join(keywords[keywords.index("wikipedia") + 1:])
+                        result = wikipedia.summary(q, sentences=2)
+                        speaking("found on wikipedia")
+                        speaking(result)
+                        continue
+
+                    elif "google" in keywords:
+                        speaking("checking on google")
+                        q = " ".join(keywords[keywords.index("google") + 1:])
+                        result = pywhatkit.search(q)
+                        speaking("this is what i found")
+                        speaking(result)
+                        continue
+
+                    elif "search" in keywords:
+                        speaking("checking on google")
+                        q = " ".join(keywords[keywords.index("search") + 1:])
+                        result = pywhatkit.search(q)
+                        speaking("this is what i found")
+                        speaking(result)
+                        continue
+
+                    else:
+                        speaking("checking on google")
+                        result = pywhatkit.search(sentence)
+                        speaking("this is what i found")
+                        speaking(result)
+                        continue
+
+                elif category == "Time":
+                    if "day" in keywords:
+                        query_day()
+                        continue
+
+                    elif "time" in keywords:
+                        query_time()
+                        continue
+
+                    elif "reminder" in keywords:
+                        speaking("Sorry, I cannot set reminders at the moment")
+                        continue
+
+
+                elif category == "Translate":
+                    translator = Translator(to_lang='es')
                     try:
-                        search = " ".join(keywords[keywords.index("play") + 1:])
-                    except:
-                        search = " ".join(keywords[keywords.index("watch") + 1:])
-                    video_search = VideosSearch(search, limit=1)
-                    video_search = VideosSearch.result()
-                    video_link = video_search['result'][0]['link']
-                    video_name = video_search['result'][0]['title']
-                    print(f'Playing {video_name}')
-                    webbrowser.open(video_link)
+                        translation = translator.translate(user_input[keywords.index("translate") + 1:])
+                        speaking(f"Here is the translation: {translation}")
+                    except Exception as e:
+                        speaking(f"An error occurred during translation: {e}")
                     continue
 
-            elif category == "internet":
-                if "wikipedia" in keywords:
-                    speaking("checking wikipedia")
-                    q = " ".join(keywords[keywords.index("wikipedia") + 1:])
-                    result = wikipedia.summary(q,sentences=2)
-                    speaking("found on wikipedia")
-                    speaking(result)
+                elif category == "StockMarketQuery":
+                    # Predefined stock lookup dictionary
+                    lookup = {
+                        "Apple": "AAPL",
+                        "Amazon": "AMZN",
+                        "Google": "GOOGL",
+                    }
+                    for company, symbol in lookup.items():
+                        try:
+                            stock = yf.Ticker(symbol)
+                            current_price = stock.info.get("regularMarketPrice", "unavailable")
+
+                            if current_price != "unavailable":
+                                speaking(f"The current price for {company} is {current_price}.")
+                            else:
+                                speaking(f"Price data for {company} is currently unavailable.")
+                        except Exception as e:
+                            speaking(f"Sorry, I couldn't retrieve data for {company}.")
+
+                elif category == "Joke":
+                    speaking(pyjokes.get_joke())
                     continue
 
-                elif "google" in keywords:
-                    speaking("checking on google")
-                    q = " ".join(keywords[keywords.index("google") + 1:])
-                    pywhatkit.search(q)
-                    speaking("this is what i found")
+                elif category == "Maps":
+                    speaking("Sorry, I cannot provide directions at the moment")
                     continue
 
-                elif "search" in keywords:
-                    speaking("checking on google")
-                    q = " ".join(keywords[keywords.index("search") + 1:])
-                    pywhatkit.search(q)
-                    speaking("this is what i found")
-                    continue
-
-            if category == "time":
-                if "day" in keywords:
-                    query_day()
-                    continue
-
-                elif "time" in keywords:
-                    query_time()
-                    continue
-
-            elif category == "translate":
-                translator = Translator(to_lang='es')
-                try:
-                    translation = translator.translate(user_input[keywords.index("translate") + 1:])
-                    speaking(f"Here is the translation: {translation}")
-                except Exception as e:
-                    speaking(f"An error occurred during translation: {e}")
-                continue
-
-            elif category == "stock":
-                search = " ".join(keywords[keywords.index("stock") + 1:])
-                lookup = {"apple": "AAPL",
-                          "amazon": "AMZN",
-                          "google": "GOOGL"}
-                try:
-                    stock = lookup[search]
-                    stock = yf.Ticker(stock)
-                    currentprice = stock.info["regularMarketPrice"]
-                    speaking(f"found it, the price for {search} is {currentprice}")
-                    continue
-                except Exception as e:
-                    speaking(f"sorry I have no data for {search}")
-                continue
-
-            elif "shut down" in user_input or 'shutdown' in user_input:
-                speaking("ok I am shuting down")
-                break
-
-            elif category == "joke":
-                speaking(pyjokes.get_joke())
-                continue
-
-            elif category == "reminder":
-                speaking("Sorry, I cannot set reminders at the moment")
-                continue
-
-            elif category == "maps":
-                speaking("Sorry, I cannot provide directions at the moment")
-                continue
-            elif category == "volume":
-                volume_manager = VolumeManager(OS)
-                if "increase" in keywords:
+                elif category == "SetVolume":
                     string = re.search(r'-?\d+\.?\d*', user_input)
                     if string:
                         number_str = string.group()
                         number = float(number_str) if '.' in number_str else int(number_str)
                         speaking(volume_manager.increase(number))
                     else:
-                        speaking("I didnt understand the amount to increase by")
+                        speaking(volume_manager.increase(10))
                     continue
-                elif "decrease" in keywords:
+
+                elif category == "IncreaseVolume":
+                    string = re.search(r'-?\d+\.?\d*', user_input)
+                    if string:
+                        number_str = string.group()
+                        number = float(number_str) if '.' in number_str else int(number_str)
+                        speaking(volume_manager.increase(number))
+                    else:
+                        speaking(volume_manager.increase(10))
+                    continue
+
+                elif category == "DecreaseVolume":
                     string = re.search(r'-?\d+\.?\d*', user_input)
                     if string:
                         number_str = string.group()
                         number = float(number_str) if '.' in number_str else int(number_str)
                         speaking(volume_manager.decrease(number))
                     else:
-                        speaking("I didnt understand the amount to decrease by")
+                        speaking(volume_manager.decrease(10))
                     continue
-                elif "max" in keywords:
-                    speaking(volume_manager.max())
-                    continue
-                elif "mute" in keywords:
+
+                elif category == "MuteVolume":
                     if volume_manager.is_muted():
                         volume_manager.mute()
                         speaking("Volume muted")
                     else:
                         speaking("Volume is already muted")
-                    continue
-                elif "unmute" in keywords:
-                    if volume_manager.is_muted():
-                        volume_manager.mute()
-                        speaking("Volume unmuted")
-                    else:
-                        speaking("Volume is not muted")
-                    continue
-                else:
-                    speaking("I am not sure what you are asking. Can you repeat?")
                     continue
 
             else:

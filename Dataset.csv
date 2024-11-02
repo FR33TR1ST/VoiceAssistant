@@ -1,0 +1,1907 @@
+Sentence,Intent
+"Play the song ""Blinding Lights"".",PlayMusic
+Can you increase the volume?,IncreaseVolume
+What’s the weather like tomorrow?,GetWeather
+Set a reminder for my meeting at 2 PM.,Time
+Turn on the living room lights.,TurnOnLights
+Play some relaxing music.,PlayMusic
+Make the volume louder.,IncreaseVolume
+Will it rain this weekend?,GetWeather
+Remind me to buy groceries tonight.,Time
+Turn on the kitchen lights.,TurnOnLights
+Play the latest Drake song.,PlayMusic
+Pump up the volume.,IncreaseVolume
+How’s the weather today?,GetWeather
+Set a reminder to call mom in 10 minutes.,Time
+Turn on all the lights in the house.,TurnOnLights
+Can you play classical music?,PlayMusic
+Turn up the volume by 10.,IncreaseVolume
+Is it going to snow tomorrow?,GetWeather
+Set a reminder for my workout at 5 PM.,Time
+Turn on the bedroom lights.,TurnOnLights
+Play some jazz music.,PlayMusic
+Make the sound louder.,IncreaseVolume
+What’s the forecast for next week?,GetWeather
+Remind me to feed the dog at 6 PM.,Time
+Turn on the office lights.,TurnOnLights
+Play a happy song.,PlayMusic
+"Increase the volume, please.",IncreaseVolume
+Will it be sunny on Friday?,GetWeather
+Set a reminder to water the plants.,Time
+Turn on the outdoor lights.,TurnOnLights
+Play music from the 80s.,PlayMusic
+Raise the volume to max.,IncreaseVolume
+Is it going to be cold tonight?,GetWeather
+Set a reminder for my dentist appointment.,Time
+Turn on the study room lights.,TurnOnLights
+Play something upbeat.,PlayMusic
+Increase the speaker volume.,IncreaseVolume
+Will there be a storm tonight?,GetWeather
+Set a reminder to take my medicine.,Time
+Turn on the bathroom lights.,TurnOnLights
+Play some pop music.,PlayMusic
+Crank up the volume.,IncreaseVolume
+Is it going to be warm tomorrow?,GetWeather
+Set a reminder to send an email.,Time
+Turn on the front porch light.,TurnOnLights
+Play a relaxing playlist.,PlayMusic
+Boost the volume a bit.,IncreaseVolume
+What’s the weather like next Monday?,GetWeather
+Set a reminder for my yoga class.,Time
+Play the new album by Taylor Swift.,PlayMusic
+Increase the volume by 5.,IncreaseVolume
+What’s the weather in New York next week?,GetWeather
+Set a reminder for my doctor’s appointment tomorrow.,Time
+Turn on the hallway lights.,TurnOnLights
+Search for the best Italian restaurants nearby.,InternetSearch
+Play rock music.,PlayMusic
+Make the volume a bit higher.,IncreaseVolume
+What’s the temperature outside right now?,GetWeather
+Remind me to call John tomorrow at 8 AM.,Time
+Turn on the garden lights.,TurnOnLights
+Search for the latest news on technology.,InternetSearch
+Play a podcast about science.,PlayMusic
+Raise the volume slightly.,IncreaseVolume
+Will it rain later today?,GetWeather
+Set a reminder to send an email at 4 PM.,Time
+Turn on the dining room lights.,TurnOnLights
+Look up the top 10 movies of 2024.,InternetSearch
+Play a motivational playlist.,PlayMusic
+Can you increase the volume a little bit more?,IncreaseVolume
+What’s the forecast for tomorrow morning?,GetWeather
+Set a reminder for my dentist appointment at 3 PM.,Time
+Turn on the upstairs lights.,TurnOnLights
+Search for the definition of artificial intelligence.,InternetSearch
+Play a relaxing meditation track.,PlayMusic
+Turn the volume up a notch.,IncreaseVolume
+Is it going to rain this afternoon?,GetWeather
+Remind me to pick up groceries at 5 PM.,Time
+Turn on the lights in the garage.,TurnOnLights
+Search for the best smartphone in 2024.,InternetSearch
+Play the next song.,PlayMusic
+Can you boost the volume by 3?,IncreaseVolume
+What’s the weather forecast for this weekend?,GetWeather
+Set a reminder for my yoga class tomorrow at 7 AM.,Time
+Turn on the basement lights.,TurnOnLights
+Look up who won the World Cup in 2022.,InternetSearch
+Play classical music to help me focus.,PlayMusic
+Turn the volume up to 75%.,IncreaseVolume
+Is it sunny right now?,GetWeather
+Set a reminder to finish my project by 2 PM.,Time
+Turn on the lights in the backyard.,TurnOnLights
+Search for the latest iPhone release date.,InternetSearch
+Play an audiobook on motivation.,PlayMusic
+Can you increase the sound level by 10?,IncreaseVolume
+Will there be a storm tonight?,GetWeather
+Set a reminder for my meeting at 9 AM.,Time
+Turn on all the lights downstairs.,TurnOnLights
+Search for the best vacation spots in Europe.,InternetSearch
+Play relaxing rain sounds.,PlayMusic
+Play some pop music.,PlayMusic
+Increase the volume by 10%.,IncreaseVolume
+What’s the weather like this weekend?,GetWeather
+Set a reminder for my meeting at 10 AM tomorrow.,Time
+Turn on the bedroom lights.,TurnOnLights
+Search for how to bake a cake.,InternetSearch
+Find the quickest route to work.,Maps
+Play an upbeat workout playlist.,PlayMusic
+Can you turn the volume up?,IncreaseVolume
+Is it going to snow today?,GetWeather
+Remind me to water the plants in the evening.,Time
+Turn on all the lights in the living room.,TurnOnLights
+Search for how to tie a tie.,InternetSearch
+Show me directions to the nearest coffee shop.,Maps
+Play the latest hits from this year.,PlayMusic
+Boost the volume a little more.,IncreaseVolume
+What’s the temperature tomorrow morning?,GetWeather
+Set a reminder to buy milk at 5 PM.,Time
+Turn on the kitchen lights.,TurnOnLights
+Search for the population of Tokyo.,InternetSearch
+Show me the route to the closest gas station.,Maps
+Play a relaxing evening playlist.,PlayMusic
+Turn up the volume by 15.,IncreaseVolume
+Will it rain tomorrow evening?,GetWeather
+Set a reminder to call mom at noon.,Time
+Turn on the lights in the study room.,TurnOnLights
+Search for the recipe of lasagna.,InternetSearch
+How do I get to Central Park?,Maps
+Play some jazz music.,PlayMusic
+Increase the sound by 5%.,IncreaseVolume
+Will there be fog in the morning?,GetWeather
+Remind me about the meeting at 4 PM.,Time
+Turn on the outside lights.,TurnOnLights
+Search for the tallest building in the world.,InternetSearch
+Show me directions to the airport.,Maps
+Play calming nature sounds.,PlayMusic
+Turn the volume up by a bit more.,IncreaseVolume
+Is it cloudy right now?,GetWeather
+Set a reminder for my gym session at 6 AM.,Time
+Turn on the lights in the hallway.,TurnOnLights
+Search for nearby restaurants.,InternetSearch
+How do I get to the nearest hospital?,Maps
+Play a podcast about history.,PlayMusic
+Raise the volume by 7.,IncreaseVolume
+What’s the weather in Los Angeles tomorrow?,GetWeather
+Set a reminder to submit my report at 11 AM.,Time
+Turn on the porch lights.,TurnOnLights
+Search for how to fix a flat tire.,InternetSearch
+Give me the directions to the mall.,Maps
+What time is it?,Time
+Set an alarm for 7 AM tomorrow.,Time
+Remind me to call John at 5 PM.,Time
+Schedule a meeting at 2 PM.,Time
+What time does the movie start?,Time
+Wake me up at 6 AM.,Time
+Set a timer for 30 minutes.,Time
+When is the next train arriving?,Time
+Remind me to water the plants in one hour.,Time
+What time is my appointment?,Time
+Remind me to take my medicine at 9 PM.,Time
+Schedule lunch at noon.,Time
+What's the time difference between here and London?,Time
+Set a countdown for 45 minutes.,Time
+Add an event to my calendar at 3 PM.,Time
+What time is the sunset?,Time
+Set a reminder for the dentist at 10 AM.,Time
+When is my flight?,Time
+Wake me up in 2 hours.,Time
+Schedule a gym session for 7 PM.,Time
+What's the current time in Tokyo?,Time
+Add a reminder for my workout at 8 AM.,Time
+Set a sleep timer for 1 hour.,Time
+When is the football game?,Time
+What time is my doctor's appointment?,Time
+What’s the weather forecast for tomorrow?,GetWeather
+Will it rain this weekend?,GetWeather
+How hot will it be in Miami today?,GetWeather
+What’s the temperature right now in San Francisco?,GetWeather
+Will there be snow in New York this week?,GetWeather
+What’s the weather like in London?,GetWeather
+Is it going to be windy later?,GetWeather
+What’s the humidity level today?,GetWeather
+Play some relaxing music.,PlayMusic
+Can you play the latest hits?,PlayMusic
+Put on my favorite playlist.,PlayMusic
+Play the song Daytona by XXXTentacion.,PlayMusic
+Shuffle my workout playlist.,PlayMusic
+Play music from the 90s.,PlayMusic
+Can you play classical music?,PlayMusic
+Turn on the background music.,PlayMusic
+Book a table for two at an Italian restaurant.,BookRestaurant
+Reserve a spot at the new sushi place.,BookRestaurant
+Can you make a reservation for dinner at 7 PM?,BookRestaurant
+I want to book a restaurant for my anniversary.,BookRestaurant
+Find a restaurant with outdoor seating.,BookRestaurant
+Book a table for four at the Thai restaurant.,BookRestaurant
+Make a dinner reservation for next Friday.,BookRestaurant
+Can you book a brunch spot for Sunday?,BookRestaurant
+Find a good sci-fi movie to watch.,InternetSearch
+Search for the latest books by Stephen King.,InternetSearch
+Can you recommend a good podcast?,InternetSearch
+Look for a documentary about space exploration.,InternetSearch
+Search for popular TV shows right now.,InternetSearch
+Find the latest art exhibitions in town.,InternetSearch
+Can you search for famous quotes about love?,InternetSearch
+Look up the latest music albums released.,InternetSearch
+Search for the best coffee shops nearby.,InternetSearch
+Can you look up the news headlines?,InternetSearch
+Find out how to bake a chocolate cake.,InternetSearch
+Search for nearby gas stations.,InternetSearch
+Look up travel tips for Europe.,InternetSearch
+Find the nearest grocery store.,InternetSearch
+Search for how to improve my credit score.,InternetSearch
+Can you look up the history of the internet?,InternetSearch
+Show me the fastest route to work.,Maps
+Find the nearest hospital on the map.,Maps
+Can you get directions to the beach?,Maps
+Show me restaurants along the way.,Maps
+How do I get to the nearest bus station?,Maps
+Display the map of downtown.,Maps
+Find a scenic route to drive.,Maps
+Show me traffic conditions on my route.,Maps
+What time does the meeting start?,Time
+Set a reminder for my birthday at 9 AM.,Time
+Schedule a call with Sarah for 4 PM.,Time
+What time does the train depart?,Time
+Remind me to submit my assignment by 5 PM.,Time
+Can you set a timer for 15 minutes?,Time
+What time is it in Paris?,Time
+Schedule a conference call for next Wednesday at 3 PM.,Time
+What's the weather like today?,GetWeather
+Will it be sunny this week?,GetWeather
+What time does the sun set today?,GetWeather
+Is it going to be hot tomorrow?,GetWeather
+What should I wear today based on the weather?,GetWeather
+Will there be a storm tonight?,GetWeather
+What's the UV index today?,GetWeather
+How cold will it get tonight?,GetWeather
+Play my workout playlist.,PlayMusic
+Can you find me a relaxing sound?,PlayMusic
+Play the latest pop songs.,PlayMusic
+Can you put on some jazz music?,PlayMusic
+Play my road trip playlist.,PlayMusic
+"Play the song ""Shape of You"" by Ed Sheeran.",PlayMusic
+Turn up the volume on the music.,PlayMusic
+Can you play some meditation music?,PlayMusic
+Book a table for six at the seafood restaurant.,BookRestaurant
+Can you reserve a table at the new Mexican restaurant?,BookRestaurant
+Find a nice restaurant for a family dinner.,BookRestaurant
+Can you book a table for my birthday dinner?,BookRestaurant
+Reserve a spot at the rooftop restaurant.,BookRestaurant
+Can you find a vegan restaurant nearby?,BookRestaurant
+Make a reservation for a table at the French bistro.,BookRestaurant
+Search for a good thriller movie to watch.,InternetSearch
+Look for new TV series to binge-watch.,InternetSearch
+Find a book with good reviews.,InternetSearch
+Can you recommend a great documentary?,InternetSearch
+Search for the best podcasts in 2024.,InternetSearch
+Find out what movies are trending right now.,InternetSearch
+Can you look for reviews on the latest video game?,InternetSearch
+Search for inspirational quotes by famous authors.,InternetSearch
+What are the top-rated coffee shops in my area?,InternetSearch
+Can you find the nearest park?,InternetSearch
+Look up tips for starting a garden.,InternetSearch
+Search for online courses in data science.,InternetSearch
+Can you find a local yoga class?,InternetSearch
+Look up the best hiking trails nearby.,InternetSearch
+Search for a recipe for chicken alfredo.,InternetSearch
+Can you find travel guides for Japan?,InternetSearch
+What’s the best route to the nearest airport?,Maps
+Show me directions to the nearest pharmacy.,Maps
+Can you find a scenic drive route?,Maps
+Display nearby attractions on the map.,Maps
+How do I get to the nearest coffee shop?,Maps
+Find me a bike path in the area.,Maps
+Show me public transport options to the city center.,Maps
+What time does the concert start?,Time
+Set a reminder for my meeting with the client at 11 AM.,Time
+When is the deadline for the project?,Time
+What time should I leave to catch my flight?,Time
+Remind me to buy groceries at 4 PM.,Time
+What time do I need to wake up tomorrow?,Time
+Schedule my dentist appointment for next Friday at 10 AM.,Time
+How's the weather looking for the picnic?,GetWeather
+Is it snowing right now in Denver?,GetWeather
+What’s the chance of rain today?,GetWeather
+What will the temperature be tomorrow?,GetWeather
+Will I need an umbrella today?,GetWeather
+What’s the air quality index today?,GetWeather
+Are there any weather warnings in my area?,GetWeather
+What was the highest temperature recorded this month?,GetWeather
+Play my favorite upbeat songs.,PlayMusic
+Can you play some songs from the 80s?,PlayMusic
+"Play the album ""1989"" by Taylor Swift.",PlayMusic
+Can you find some classical piano pieces?,PlayMusic
+Play the soundtrack from my favorite movie.,PlayMusic
+Can you create a playlist for a party?,PlayMusic
+Turn off the music.,PlayMusic
+Play some background noise for studying.,PlayMusic
+Book a table for two at the new vegan restaurant.,BookRestaurant
+Can you reserve a private room for dinner?,BookRestaurant
+I want to book a restaurant for my anniversary dinner.,BookRestaurant
+Can you find a restaurant that serves gluten-free options?,BookRestaurant
+Book a table for brunch at the café downtown.,BookRestaurant
+Reserve a table for six at the steakhouse.,BookRestaurant
+Can you find a cozy café for a coffee date?,BookRestaurant
+Search for a comedy movie released this year.,InternetSearch
+Find popular non-fiction books published recently.,InternetSearch
+Look for a new animated series to watch.,InternetSearch
+Can you find documentaries about climate change?,InternetSearch
+Search for upcoming concerts in my area.,InternetSearch
+What are the best-rated children's books?,InternetSearch
+Look for the latest news on space exploration.,InternetSearch
+Search for the best hiking spots in Colorado.,InternetSearch
+Can you look up recipes for healthy meals?,InternetSearch
+Find information on how to start a podcast.,InternetSearch
+Search for tips to improve my photography skills.,InternetSearch
+Look up local events happening this weekend.,InternetSearch
+Can you find reviews for that new restaurant?,InternetSearch
+Search for ideas for a weekend getaway.,InternetSearch
+What’s the quickest route to the stadium?,Maps
+Show me the map for the hiking trail.,Maps
+Can you get directions to the nearest library?,Maps
+How do I reach the convention center from here?,Maps
+Find the best route to avoid traffic.,Maps
+Display points of interest near me on the map.,Maps
+Show me directions to my favorite restaurant.,Maps
+When is my next appointment?,Time
+Set a reminder to check my email at 8 AM.,Time
+What time should I start cooking?,Time
+Schedule a call with the doctor for Tuesday at 3 PM.,Time
+Can you remind me to pay the bills tomorrow?,Time
+What time is my meeting with the team?,Time
+Schedule a webinar for next Thursday at 1 PM.,Time
+What’s the forecast for the week ahead?,GetWeather
+Will it be sunny or cloudy tomorrow?,GetWeather
+How chilly is it expected to get tonight?,GetWeather
+What’s the current temperature in Chicago?,GetWeather
+Are there any severe weather alerts in my location?,GetWeather
+What’s the UV index for today?,GetWeather
+Is there a possibility of thunderstorms later?,GetWeather
+What were the weather conditions like yesterday?,GetWeather
+Can you play some soft jazz music?,PlayMusic
+Find some top hits from the past year.,PlayMusic
+Play a mix of my favorite songs.,PlayMusic
+Can you queue up some rock classics?,PlayMusic
+Play the latest album by Dua Lipa.,PlayMusic
+"Shuffle my workout playlist, please.",PlayMusic
+Play instrumental music for studying.,PlayMusic
+Can you find songs with a relaxing vibe?,PlayMusic
+Reserve a table for two at the French bistro.,BookRestaurant
+Please book a table at the new seafood restaurant.,BookRestaurant
+I’d like a dinner reservation for next Saturday at 7 PM.,BookRestaurant
+Can you find a place that offers outdoor dining?,BookRestaurant
+Make a reservation for brunch at that popular café downtown.,BookRestaurant
+Book a large table for a family gathering at the Italian restaurant.,BookRestaurant
+Can you secure a table for dinner on my birthday?,BookRestaurant
+Recommend a recent action movie I can watch.,InternetSearch
+Look for best-selling novels from this year.,InternetSearch
+Find a new thriller series to binge-watch.,InternetSearch
+Can you search for documentaries on renewable energy?,InternetSearch
+What are the trending TV shows right now?,InternetSearch
+Search for interesting TED Talks on technology.,InternetSearch
+Can you recommend popular art shows happening now?,InternetSearch
+What’s the best way to find local shops?,InternetSearch
+Search for healthy smoothie recipes.,InternetSearch
+Look up tips for starting a successful blog.,InternetSearch
+Find out how to make homemade pizza.,InternetSearch
+Can you locate the nearest pharmacy?,InternetSearch
+Search for upcoming festivals in my city.,InternetSearch
+What’s the quickest way to get to the airport?,Maps
+Show me the directions to the nearest grocery store.,Maps
+How do I find the best routes for cycling?,Maps
+Can you map out my route for a road trip?,Maps
+Display the nearby coffee shops on the map.,Maps
+Find the closest park for a picnic.,Maps
+What time does the yoga class start?,Time
+Set a reminder to call my mom at 3 PM.,Time
+When should I leave for my appointment?,Time
+Schedule a meeting with the client for Friday at 10 AM.,Time
+Can you remind me to submit the report by end of the day?,Time
+What’s the time difference between here and Sydney?,Time
+Please set a timer for 20 minutes.,Time
+When does the next webinar start?,Time
+Remind me to water the garden at 6 PM.,Time
+What time does my flight take off tomorrow?,Time
+When is the deadline for the project submission?,Time
+Set an alert for the start of the football match.,Time
+Can you remind me to feed the cat at 7 AM?,Time
+What time should I leave to catch the bus?,Time
+Set a notification for my friend's birthday.,Time
+When do I need to pick up the dry cleaning?,Time
+Schedule a doctor's appointment for next month.,Time
+Remind me to check the mail at noon.,Time
+Can you set a reminder for my dentist appointment next week?,Time
+What time does the show start?,Time
+Set an alert for my workout session at 5 PM.,Time
+Can you remind me about the webinar tomorrow?,Time
+How’s the weather looking for the weekend?,GetWeather
+Will it be chilly this evening?,GetWeather
+Is there a chance of rain today?,GetWeather
+What’s the temperature in New York right now?,GetWeather
+Will it snow tomorrow?,GetWeather
+What’s the weather report for this afternoon?,GetWeather
+Is it going to be humid today?,GetWeather
+Can you tell me if it’s windy right now?,GetWeather
+Play some upbeat music for me.,PlayMusic
+Find some acoustic tracks to listen to.,PlayMusic
+Can you put on my workout playlist?,PlayMusic
+Play my favorite song on repeat.,PlayMusic
+Play a selection of top hits from the past month.,PlayMusic
+Queue up my favorite 80s songs.,PlayMusic
+Can you find me some relaxing nature sounds?,PlayMusic
+Make a reservation for dinner at an Indian restaurant.,BookRestaurant
+Please book a table for four at the rooftop bar.,BookRestaurant
+Reserve a spot at a popular steakhouse for Saturday night.,BookRestaurant
+Can you book a lunch reservation at that new café?,BookRestaurant
+Find a restaurant that serves vegetarian dishes.,BookRestaurant
+Make a dinner reservation at the Mexican place downtown.,BookRestaurant
+Can you find me a restaurant that has live music?,BookRestaurant
+Search for a fantasy novel recommended by critics.,InternetSearch
+What are some must-watch films this year?,InternetSearch
+Can you recommend a documentary about climate change?,InternetSearch
+Look up popular podcasts in true crime.,InternetSearch
+Find critically acclaimed series to watch.,InternetSearch
+Search for the latest art trends in galleries.,InternetSearch
+Can you find recipes for quick weeknight dinners?,InternetSearch
+What are the best hiking trails nearby?,InternetSearch
+Look for tips on how to travel on a budget.,InternetSearch
+Search for the best pizza places in town.,InternetSearch
+Find out how to improve my public speaking skills.,InternetSearch
+Can you locate nearby fitness centers?,InternetSearch
+What’s the fastest route to the concert venue?,Maps
+Show me directions to the nearest subway station.,Maps
+Can you find the quickest path to the library?,Maps
+Display a map of bike paths in the area.,Maps
+How do I navigate to the nearest gas station?,Maps
+Find scenic drives in the countryside.,Maps
+When does the next lecture start?,Time
+Schedule a call with the team at 11 AM tomorrow.,Time
+Can you remind me to pick up groceries at 6 PM?,Time
+What time does the bus arrive?,Time
+Remind me to check the oven in 30 minutes.,Time
+When should I set the alarm for my flight?,Time
+Please set a countdown for 10 minutes.,Time
+What time is my meeting scheduled for?,Time
+Remind me to send that email by noon.,Time
+Can you alert me when it's time to leave for the party?,Time
+Schedule my weekly review meeting for Friday at 2 PM.,Time
+Set a reminder for my favorite show's premiere next week.,Time
+When is the deadline for the grant application?,Time
+Can you remind me to practice my presentation at 5 PM?,Time
+When should I submit my project for review?,Time
+What’s the weather like for the upcoming week?,GetWeather
+Will it be sunny in Los Angeles tomorrow?,GetWeather
+How’s the weather looking for our picnic this weekend?,GetWeather
+What’s the current temperature in Chicago?,GetWeather
+Is it supposed to rain later today?,GetWeather
+What’s the forecast for the holiday weekend?,GetWeather
+Will I need an umbrella this afternoon?,GetWeather
+How windy is it expected to be this evening?,GetWeather
+Can you play some soothing background music?,PlayMusic
+Play the latest pop hits for me.,PlayMusic
+Can you queue up some jazz tunes?,PlayMusic
+Find me some songs for a dinner party.,PlayMusic
+Can you put on my summer playlist?,PlayMusic
+Play a selection of throwback hits.,PlayMusic
+Can you find me some instrumental music to study to?,PlayMusic
+Make a reservation for dinner at a French bistro.,BookRestaurant
+Please book a table for two at the new Mediterranean restaurant.,BookRestaurant
+Reserve a table for a romantic dinner at sunset.,BookRestaurant
+Can you book a lunch reservation at the rooftop café?,BookRestaurant
+Find a family-friendly restaurant nearby.,BookRestaurant
+Make a dinner reservation at the sushi place down the street.,BookRestaurant
+Can you find me a place with a view?,BookRestaurant
+Search for a thriller novel that's been well-reviewed.,InternetSearch
+What are some great documentaries to watch this year?,InternetSearch
+Can you recommend a series based on true events?,InternetSearch
+Look up popular blogs about technology trends.,InternetSearch
+Search for the latest music festivals happening this summer.,InternetSearch
+Find out what the best-selling books of the year are.,InternetSearch
+What’s the best coffee shop in town?,InternetSearch
+Can you find the top-rated restaurants in the area?,InternetSearch
+Search for tips on how to stay productive while working from home.,InternetSearch
+Find nearby parks for a weekend picnic.,InternetSearch
+What are the best places to visit in Europe?,InternetSearch
+Look for affordable vacation rentals in Hawaii.,InternetSearch
+Can you show me the quickest route to the airport?,Maps
+Find me directions to the nearest train station.,Maps
+How do I get to the local museum?,Maps
+Display a map showing hiking trails in the national park.,Maps
+What’s the best route to avoid traffic during rush hour?,Maps
+Find a scenic drive along the coast.,Maps
+What time does the meeting conclude?,Time
+Schedule a follow-up call for next Tuesday at 3 PM.,Time
+Can you remind me to take a break at 10 AM?,Time
+When does the next ferry depart?,Time
+Remind me to check in for my flight at 24 hours before departure.,Time
+What time do I need to leave for my appointment?,Time
+Please set a countdown for 20 minutes.,Time
+What time is the game starting tonight?,Time
+Remind me to buy groceries after work at 6 PM.,Time
+Can you set an alert for the start of the movie?,Time
+Schedule my project deadline for next Friday at 5 PM.,Time
+Set a reminder for my dentist appointment next month.,Time
+When is my workout scheduled for this week?,Time
+Can you remind me to call the bank at 2 PM?,Time
+What’s the time difference between here and Sydney?,Time
+Is it too late to call my friend in California?,Time
+When should I set my alarm for tomorrow?,Time
+How long until my meeting starts?,Time
+What time does my favorite show air?,Time
+When does the exhibition at the gallery open?,Time
+Can you remind me to pay my bills by the end of the month?,Time
+What time should I leave for the concert?,Time
+When is the last train home tonight?,Time
+Can you remind me to bring my presentation materials?,Time
+What time is the library open until?,Time
+How long until my flight takes off?,Time
+What’s the time for the online class?,Time
+How do I set a timer for my laundry?,Time
+Can you alert me when my food delivery arrives?,Time
+What’s the best time to call my grandma?,Time
+Can you set a sleep reminder for 10 PM?,Time
+What time does the store open tomorrow?,Time
+Remind me to submit my report before noon on Friday.,Time
+What time is my first appointment on Tuesday?,Time
+When does the sale end at the mall?,Time
+Can you remind me to check the weather before I leave?,Time
+Set an alarm for the time I need to wake up on vacation.,Time
+Can you remind me about the webinar next week?,Time
+Can you show me the best route to the nearest gas station?,Maps
+Find the quickest way to my office from here.,Maps
+How do I get to the nearest pharmacy?,Maps
+Show me directions to the nearest coffee shop.,Maps
+What’s the fastest way to get to the airport?,Maps
+Find the route with the least traffic to downtown.,Maps
+Can you help me find bike paths around the city?,Maps
+Show me the way to the nearest hospital.,Maps
+How do I get to the beach from here?,Maps
+Find me directions to the closest park.,Maps
+Can you show me the scenic route to the mountains?,Maps
+What’s the best way to get to the train station?,Maps
+Find the location of the nearest grocery store.,Maps
+Can you show me a map of hiking trails in the area?,Maps
+How do I get to the concert venue?,Maps
+What’s the distance to the city center?,Maps
+Show me the traffic conditions on my route to work.,Maps
+Find the best walking route to the library.,Maps
+Can you give me directions to the nearest ATM?,Maps
+Show me nearby tourist attractions.,Maps
+What’s the best route to avoid construction delays?,Maps
+Can you find the nearest subway station?,Maps
+Show me the location of the nearest gym.,Maps
+How do I get to the zoo?,Maps
+Find me directions to the farmer's market.,Maps
+Show me a map of all the parks in the city.,Maps
+Can you help me locate the nearest library?,Maps
+How do I get to the botanical garden?,Maps
+Find the quickest route to the nearest beach.,Maps
+What’s the best way to navigate downtown?,Maps
+Show me the nearest gas stations along the highway.,Maps
+Can you find me the best route for a scenic drive?,Maps
+How do I get to the nearest hotel?,Maps
+Find the location of the nearest community center.,Maps
+Can you show me the route to my favorite restaurant?,Maps
+How do I get to the nearest sports complex?,Maps
+Show me public transportation routes to downtown.,Maps
+Find the best bike route to the park.,Maps
+Can you show me the route to my friend's house?,Maps
+What’s the best route for a road trip?,Maps
+Show me the map of local hiking trails.,Maps
+Find directions to the nearest art gallery.,Maps
+How do I get to the science museum?,Maps
+Can you show me a map with public transit stops?,Maps
+Find me the best route to a nearby amusement park.,Maps
+What’s the quickest route to the nearest beach resort?,Maps
+Can you show me the route to the convention center?,Maps
+How do I get to the local cinema?,Maps
+Find directions to the nearest school.,Maps
+Show me the best route to the farmers' market.,Maps
+Can you help me find a nearby hiking spot?,Maps
+How do I get to the nearest ice cream shop?,Maps
+What’s the best way to navigate the city by foot?,Maps
+Find me directions to the local pet store.,Maps
+Show me the route to the nearest beach park.,Maps
+Can you find the best route to the next town over?,Maps
+How do I get to the community pool?,Maps
+What are the latest news headlines?,InternetSearch
+Can you find recipes for vegan desserts?,InternetSearch
+Search for tips on traveling to Japan.,InternetSearch
+Find the best workout routines for beginners.,InternetSearch
+What are the symptoms of the flu?,InternetSearch
+Can you look up reviews for that new restaurant?,InternetSearch
+Search for how to improve my public speaking skills.,InternetSearch
+Find out the best practices for remote working.,InternetSearch
+What are some popular podcasts to listen to?,InternetSearch
+Can you look for travel deals for Europe?,InternetSearch
+What are the top-rated movies of the year?,InternetSearch
+Search for how to start a garden at home.,InternetSearch
+What are the latest trends in technology?,InternetSearch
+Can you find information on the history of the pyramids?,InternetSearch
+Look up the most effective study techniques.,InternetSearch
+What are some good apps for productivity?,InternetSearch
+Search for articles on climate change solutions.,InternetSearch
+Find tutorials for learning a new language.,InternetSearch
+Can you look for information on the latest smartphone releases?,InternetSearch
+What are some effective strategies for managing stress?,InternetSearch
+Search for the best coffee brands to try.,InternetSearch
+Find out how to create a budget.,InternetSearch
+Can you look for the best places to visit in Italy?,InternetSearch
+What are some popular online courses available?,InternetSearch
+Search for how to take better photographs.,InternetSearch
+What are the health benefits of yoga?,InternetSearch
+Can you find the latest research on artificial intelligence?,InternetSearch
+Look up how to build a personal website.,InternetSearch
+What are some great family vacation spots?,InternetSearch
+Search for how to become a better writer.,InternetSearch
+Can you find the best-rated video games of the year?,InternetSearch
+What are some popular social media trends?,InternetSearch
+Search for how to make homemade pizza.,InternetSearch
+Find tips for successful job interviews.,InternetSearch
+Can you look for ideas for a summer reading list?,InternetSearch
+What are the best ways to learn coding?,InternetSearch
+Search for popular diet plans and their effectiveness.,InternetSearch
+What are some creative writing prompts?,InternetSearch
+Can you find information about the latest fashion trends?,InternetSearch
+What are some effective ways to network professionally?,InternetSearch
+Search for how to host a successful webinar.,InternetSearch
+Can you find tips on improving sleep quality?,InternetSearch
+What are the most popular tourist attractions in New York?,InternetSearch
+Search for ways to reduce plastic waste.,InternetSearch
+Can you look for the best places to shop for eco-friendly products?,InternetSearch
+What are some fun activities to do at home?,InternetSearch
+Find information on how to plan a wedding on a budget.,InternetSearch
+Can you look for the best movies based on true stories?,InternetSearch
+What are some interesting facts about space?,InternetSearch
+What are some highly-rated sci-fi novels to read?,InternetSearch
+Can you find me some classic literature recommendations?,InternetSearch
+Look for upcoming movie releases this year.,InternetSearch
+Can you suggest some inspiring documentaries to watch?,InternetSearch
+Search for popular TV shows to binge-watch.,InternetSearch
+What are some critically acclaimed films of the past decade?,InternetSearch
+Can you find new music albums released this month?,InternetSearch
+What are the top-rated podcasts about history?,InternetSearch
+Look for must-see foreign films.,InternetSearch
+Can you find the latest art exhibitions in my city?,InternetSearch
+What are some great fantasy book series to explore?,InternetSearch
+Search for popular children's books to read together.,InternetSearch
+Can you suggest some uplifting songs for my playlist?,InternetSearch
+What are some well-reviewed cooking shows?,InternetSearch
+Can you find me a list of classic rock albums to listen to?,InternetSearch
+What are the best TED Talks to watch for inspiration?,InternetSearch
+Search for modern art trends and movements.,InternetSearch
+Can you find out which musicals are currently on Broadway?,InternetSearch
+What are some popular genres of independent films?,InternetSearch
+Look for recent award-winning short films.,InternetSearch
+Can you suggest some great graphic novels to read?,InternetSearch
+What are some impactful memoirs to consider?,InternetSearch
+Search for notable authors from the 20th century.,InternetSearch
+Can you find information on influential art movements?,InternetSearch
+What are the best-selling books of all time?,InternetSearch
+Can you suggest films based on true events?,InternetSearch
+What are some critically acclaimed animated films?,InternetSearch
+Look for popular music genres in different cultures.,InternetSearch
+Can you find me a list of recent award-winning plays?,InternetSearch
+What are some famous photography exhibitions to visit?,InternetSearch
+Can you suggest must-read non-fiction books?,InternetSearch
+What are the most iconic songs of the 80s?,InternetSearch
+Search for new releases in the world of classical music.,InternetSearch
+Can you find popular web series that are gaining attention?,InternetSearch
+What are some trending hashtags for artists on social media?,InternetSearch
+Search for recommendations for historical fiction books.,InternetSearch
+Can you suggest some great thrillers to read?,InternetSearch
+What are the most anticipated films of the upcoming year?,InternetSearch
+Can you find me a list of essential jazz albums?,InternetSearch
+What are some impactful pieces of performance art?,InternetSearch
+Look for famous works by renowned playwrights.,InternetSearch
+Can you suggest recent releases in the genre of horror films?,InternetSearch
+Can you recommend popular cooking channels on YouTube?,YouTubeVideos
+What are some trending beauty tutorials on YouTube?,YouTubeVideos
+Find me channels that offer travel vlogs.,YouTubeVideos
+Can you show me funny cat videos?,YouTubeVideos
+What are the top-rated educational channels on YouTube?,YouTubeVideos
+Search for DIY project videos on YouTube.,YouTubeVideos
+Can you find workout tutorials for beginners?,YouTubeVideos
+What are some popular music video channels?,YouTubeVideos
+Look for documentaries available on YouTube.,YouTubeVideos
+Can you suggest channels that review tech gadgets?,YouTubeVideos
+What are some good channels for learning a new language?,YouTubeVideos
+Search for inspirational talks on YouTube.,YouTubeVideos
+Can you find art tutorial videos?,YouTubeVideos
+What are the best gaming channels on YouTube?,YouTubeVideos
+Look for channels focused on mental health and wellness.,YouTubeVideos
+Can you recommend channels that explain science concepts?,YouTubeVideos
+What are some popular lifestyle vlogs to watch?,YouTubeVideos
+Search for channels that offer financial advice.,YouTubeVideos
+Can you find channels dedicated to pet care tips?,YouTubeVideos
+What are the most viewed prank videos on YouTube?,YouTubeVideos
+Look for fashion haul videos on YouTube.,YouTubeVideos
+Can you recommend channels for learning coding?,YouTubeVideos
+What are some must-watch motivational videos?,YouTubeVideos
+Search for nature documentary channels.,YouTubeVideos
+Can you find channels that offer home organization tips?,YouTubeVideos
+What are some popular ASMR channels?,YouTubeVideos
+Look for food review channels on YouTube.,YouTubeVideos
+Can you recommend channels that discuss current events?,YouTubeVideos
+What are the top-rated channels for learning photography?,YouTubeVideos
+Search for car review channels on YouTube.,YouTubeVideos
+Can you find channels that cover conspiracy theories?,YouTubeVideos
+What are some popular history channels on YouTube?,YouTubeVideos
+Look for workout challenges available on YouTube.,YouTubeVideos
+Can you recommend cooking channels that specialize in desserts?,YouTubeVideos
+What are the best channels for parenting tips?,YouTubeVideos
+Search for motivational speeches on YouTube.,YouTubeVideos
+Can you find travel channels that focus on budget trips?,YouTubeVideos
+What are some entertaining game show channels?,YouTubeVideos
+Look for personal finance channels on YouTube.,YouTubeVideos
+Can you recommend channels that offer home improvement tips?,YouTubeVideos
+What are the top-rated wellness and self-care channels?,YouTubeVideos
+Search for tech unboxing videos on YouTube.,YouTubeVideos
+Can you find channels dedicated to woodworking?,YouTubeVideos
+What are some creative writing channels to follow?,YouTubeVideos
+Look for makeup transformation videos.,YouTubeVideos
+Can you recommend channels for practicing mindfulness?,YouTubeVideos
+What are the most popular travel guide videos?,YouTubeVideos
+Search for storytelling channels on YouTube.,YouTubeVideos
+Can you find channels that review board games?,YouTubeVideos
+What are some educational kids' channels?,YouTubeVideos
+Look for channels that offer gardening tips.,YouTubeVideos
+Can you recommend channels focused on sustainable living?,YouTubeVideos
+What are the top-rated art critique channels?,YouTubeVideos
+Search for interviews with famous personalities on YouTube.,YouTubeVideos
+Can you find channels that focus on home cooking?,YouTubeVideos
+What are some popular science experiment channels?,YouTubeVideos
+Look for motivational quotes and speeches compilation videos.,YouTubeVideos
+Can you recommend channels that explain complex math concepts?,YouTubeVideos
+What are the best channels for film analysis?,YouTubeVideos
+Search for animated storytelling channels on YouTube.,YouTubeVideos
+Can you find music channels that feature live performances?,YouTubeVideos
+What are some engaging book review channels?,YouTubeVideos
+Look for pet training channels on YouTube.,YouTubeVideos
+Can you recommend channels that offer baking tutorials?,YouTubeVideos
+What are the most popular unboxing videos?,YouTubeVideos
+Search for challenges and trends on YouTube.,YouTubeVideos
+Can you find channels that focus on world cultures?,YouTubeVideos
+What are some entertaining comedy skit channels?,YouTubeVideos
+Look for life hacks and tips videos on YouTube.,YouTubeVideos
+Can you recommend channels that cover space exploration?,YouTubeVideos
+What are the best channels for learning history?,YouTubeVideos
+Search for travel documentaries on YouTube.,YouTubeVideos
+Can you find channels that offer interview tips?,YouTubeVideos
+What are some popular home decor channels?,YouTubeVideos
+Look for cooking channels that specialize in quick meals.,YouTubeVideos
+Can you recommend channels that explore ancient civilizations?,YouTubeVideos
+What are the top-rated educational channels for children?,YouTubeVideos
+Search for motivational fitness videos on YouTube.,YouTubeVideos
+Can you find channels that review subscription boxes?,YouTubeVideos
+What are some popular reaction video channels?,YouTubeVideos
+Look for channels that focus on psychology and human behavior.,YouTubeVideos
+Can you recommend channels that offer knitting tutorials?,YouTubeVideos
+What are the best channels for learning public speaking?,YouTubeVideos
+Search for channels that cover current technology trends.,YouTubeVideos
+Can you find channels that feature celebrity interviews?,YouTubeVideos
+What are some interesting science channels for kids?,YouTubeVideos
+Look for popular channels that review movies.,YouTubeVideos
+Can you recommend channels for learning about philosophy?,YouTubeVideos
+What are the top-rated cooking channels focused on healthy meals?,YouTubeVideos
+Search for channels that provide mental health advice.,YouTubeVideos
+Can you find channels that feature sports highlights?,YouTubeVideos
+What are some popular nature channels on YouTube?,YouTubeVideos
+Look for technology review channels that cover smartphones.,YouTubeVideos
+Can you recommend channels that discuss sustainability in fashion?,YouTubeVideos
+What are the best channels for exploring different cuisines?,YouTubeVideos
+Search for pet rescue stories on YouTube.,YouTubeVideos
+Can you find channels that focus on outdoor adventures?,YouTubeVideos
+What are some engaging motivational channels?,YouTubeVideos
+Look for video essays on social issues on YouTube.,YouTubeVideos
+Can you recommend channels that teach about finance and investing?,YouTubeVideos
+What are the top-rated channels for exploring mythology?,YouTubeVideos
+Search for DIY home renovation videos on YouTube.,YouTubeVideos
+Can you find channels that focus on architecture?,YouTubeVideos
+What are some popular channels for learning graphic design?,YouTubeVideos
+Look for channels that showcase extreme sports.,YouTubeVideos
+Can you recommend channels that highlight local businesses?,YouTubeVideos
+What are the best channels for exploring local food scenes?,YouTubeVideos
+Search for popular magic trick channels on YouTube.,YouTubeVideos
+Can you find channels that focus on minimalism?,YouTubeVideos
+What are some entertaining prank channels?,YouTubeVideos
+Look for channels that offer public service announcements.,YouTubeVideos
+Can you recommend channels that explore technological innovations?,YouTubeVideos
+What are the top-rated channels for discussing environmental issues?,YouTubeVideos
+Search for channels that offer sewing tutorials.,YouTubeVideos
+Can you find channels that showcase wildlife documentaries?,YouTubeVideos
+What are some popular motivational YouTube channels?,YouTubeVideos
+Look for channels that focus on financial literacy for teens.,YouTubeVideos
+Can you recommend channels for enhancing productivity?,YouTubeVideos
+What are the best channels for mental health awareness?,YouTubeVideos
+Search for unique travel experiences on YouTube.,YouTubeVideos
+Can you find channels that cover global news?,YouTubeVideos
+What are some popular science fiction analysis channels?,YouTubeVideos
+Look for creative photography channels on YouTube.,YouTubeVideos
+Can you recommend channels that teach coding for kids?,YouTubeVideos
+What are the most popular challenges on YouTube?,YouTubeVideos
+Search for motivational fitness journey videos.,YouTubeVideos
+Can you find channels that provide relationship advice?,YouTubeVideos
+What are some engaging storytelling channels for children?,YouTubeVideos
+Look for popular YouTube channels that explore mental health topics.,YouTubeVideos
+"Lower the volume a bit, please.",DecreaseVolume
+Can you turn down the music?,DecreaseVolume
+Reduce the sound on the TV.,DecreaseVolume
+"Make it quieter, please.",DecreaseVolume
+Please lower the speaker volume.,DecreaseVolume
+Turn the volume down a notch.,DecreaseVolume
+Can you mute the sound?,DecreaseVolume
+Decrease the audio level.,DecreaseVolume
+Bring down the volume on my phone.,DecreaseVolume
+Can you soften the music?,DecreaseVolume
+Lower the volume for a more relaxed vibe.,DecreaseVolume
+Can you turn down the podcast?,DecreaseVolume
+Reduce the volume during the conversation.,DecreaseVolume
+Please decrease the sound while I focus.,DecreaseVolume
+Turn the audio down a little.,DecreaseVolume
+"Make it less loud, please.",DecreaseVolume
+Lower the volume so I can hear better.,DecreaseVolume
+Can you decrease the music volume?,DecreaseVolume
+Set the audio to a lower level.,DecreaseVolume
+Please turn down the sound effects.,DecreaseVolume
+Bring the volume down for clarity.,DecreaseVolume
+Can you adjust the sound to be quieter?,DecreaseVolume
+Reduce the volume when I’m on a call.,DecreaseVolume
+"Lower the background music, please.",DecreaseVolume
+Decrease the volume for a more peaceful atmosphere.,DecreaseVolume
+Can you mute the sound?,MuteVolume
+Please silence the music.,MuteVolume
+Turn off the volume completely.,MuteVolume
+"Mute the TV, please.",MuteVolume
+Can you silence the audio?,MuteVolume
+Please mute the background noise.,MuteVolume
+Set the volume to mute.,MuteVolume
+Can you turn off the speaker?,MuteVolume
+Mute the sound while I work.,MuteVolume
+Please disable the audio for a moment.,MuteVolume
+Can you turn off the music for now?,MuteVolume
+"Silence the notifications, please.",MuteVolume
+Please mute my call.,MuteVolume
+Mute the sound effects in the game.,MuteVolume
+Can you switch the audio off?,MuteVolume
+Turn off all sounds for a bit.,MuteVolume
+Please mute the video playback.,MuteVolume
+Set the audio to silent mode.,MuteVolume
+Can you mute the alert sounds?,MuteVolume
+Please stop the audio from playing.,MuteVolume
+Mute everything while I take a break.,MuteVolume
+Can you switch off the volume during the presentation?,MuteVolume
+Please silence the speaker output.,MuteVolume
+Mute the radio for a moment.,MuteVolume
+Can you turn off the volume during the meeting?,MuteVolume
+Please keep the sound off for now.,MuteVolume
+Set the volume to 10.,SetVolume
+Set the volume to 20.,SetVolume
+Set the volume to 30.,SetVolume
+Set the volume to 40.,SetVolume
+Set the volume to 50.,SetVolume
+Set the volume to 60.,SetVolume
+Set the volume to 70.,SetVolume
+Set the volume to 80.,SetVolume
+Set the volume to 90.,SetVolume
+Set the volume to 100.,SetVolume
+Set the volume to a low level.,SetVolume
+Set the volume to a medium level.,SetVolume
+Set the volume to a high level.,SetVolume
+Set the volume to max.,SetVolume
+Set the volume to minimum.,SetVolume
+Set the volume for notifications to 50.,SetVolume
+Set the volume for music to 75.,SetVolume
+Set the volume for the movie to 40.,SetVolume
+Set the volume for the podcast to 60.,SetVolume
+Set the alarm volume to 80.,SetVolume
+Set the TV volume to 30.,SetVolume
+Set the game audio volume to 70.,SetVolume
+Set the volume for the meeting to 50.,SetVolume
+Set the volume for the call to 60.,SetVolume
+Set the volume for the speaker to 90.,SetVolume
+Set the volume for the background music to 40.,SetVolume
+Increase the volume to 25.,SetVolume
+Lower the volume to 15.,SetVolume
+Adjust the volume to 45.,SetVolume
+Change the volume to 55.,SetVolume
+Raise the volume to 65.,SetVolume
+Set the volume to a comfortable level.,SetVolume
+Set the volume for the radio to 35.,SetVolume
+Turn the volume down to 20.,SetVolume
+Turn the volume up to 75.,SetVolume
+Set the ringer volume to 50.,SetVolume
+Set the sound volume to 80.,SetVolume
+Adjust the media volume to 60.,SetVolume
+Set the volume for alerts to 40.,SetVolume
+Set the volume level for streaming to 70.,SetVolume
+Set the volume for the audio book to 55.,SetVolume
+Set the volume during the workout to 65.,SetVolume
+Set the sound level for presentations to 50.,SetVolume
+Set the background music volume to 45.,SetVolume
+Adjust the headset volume to 80.,SetVolume
+Set the volume for the live stream to 90.,SetVolume
+Set the volume on the Bluetooth speaker to 30.,SetVolume
+Set the sound level for video calls to 60.,SetVolume
+Set the volume for the news broadcast to 40.,SetVolume
+Set the game chat volume to 75.,SetVolume
+Set the volume for children's shows to 50.,SetVolume
+Increase the volume for workout music to 70.,SetVolume
+Set the volume to make the dialogue clearer.,SetVolume
+Set the volume for the children's audiobook to 60.,SetVolume
+Set the sound level for the conference call to 80.,SetVolume
+Adjust the music volume to 55 for a party.,SetVolume
+Set the background sound volume to 35.,SetVolume
+Set the volume to 50 percent.,SetVolume
+Set the volume to 50 percent.,SetVolume
+Set the volume to 50 percent.,SetVolume
+Set the volume to 50 percent.,SetVolume
+Set the volume to 50 percent.,SetVolume
+Set the volume to 50 percent.,SetVolume
+Set the volume to 50 percent.,SetVolume
+Set the volume to 50 percent.,SetVolume
+Can you adjust the volume to a lower level?,SetVolume
+Can you adjust the volume to a lower level?,SetVolume
+Can you adjust the volume to a lower level?,SetVolume
+Can you adjust the volume to a lower level?,SetVolume
+Can you adjust the volume to a lower level?,SetVolume
+Can you adjust the volume to a lower level?,SetVolume
+Can you adjust the volume to a lower level?,SetVolume
+Can you adjust the volume to a lower level?,SetVolume
+Make the volume 75.,SetVolume
+Make the volume 75.,SetVolume
+Make the volume 75.,SetVolume
+Make the volume 75.,SetVolume
+Make the volume 75.,SetVolume
+Make the volume 75.,SetVolume
+Make the volume 75.,SetVolume
+Make the volume 75.,SetVolume
+Change the volume to medium.,SetVolume
+Change the volume to medium.,SetVolume
+Change the volume to medium.,SetVolume
+Change the volume to medium.,SetVolume
+Change the volume to medium.,SetVolume
+Change the volume to medium.,SetVolume
+Change the volume to medium.,SetVolume
+Change the volume to medium.,SetVolume
+Adjust the volume to max.,SetVolume
+Adjust the volume to max.,SetVolume
+Adjust the volume to max.,SetVolume
+Adjust the volume to max.,SetVolume
+Adjust the volume to max.,SetVolume
+Adjust the volume to max.,SetVolume
+Adjust the volume to max.,SetVolume
+Adjust the volume to max.,SetVolume
+Set the volume to 30 percent.,SetVolume
+Set the volume to 30 percent.,SetVolume
+Set the volume to 30 percent.,SetVolume
+Set the volume to 30 percent.,SetVolume
+Set the volume to 30 percent.,SetVolume
+Set the volume to 30 percent.,SetVolume
+Set the volume to 30 percent.,SetVolume
+Set the volume to 30 percent.,SetVolume
+Can you put the volume at 20?,SetVolume
+Can you put the volume at 20?,SetVolume
+Can you put the volume at 20?,SetVolume
+Can you put the volume at 20?,SetVolume
+Can you put the volume at 20?,SetVolume
+Can you put the volume at 20?,SetVolume
+Can you put the volume at 20?,SetVolume
+Can you put the volume at 20?,SetVolume
+Change the volume to 40.,SetVolume
+Change the volume to 40.,SetVolume
+Change the volume to 40.,SetVolume
+Change the volume to 40.,SetVolume
+Change the volume to 40.,SetVolume
+Change the volume to 40.,SetVolume
+Change the volume to 40.,SetVolume
+Change the volume to 40.,SetVolume
+Make sure the volume is 10 percent.,SetVolume
+Make sure the volume is 10 percent.,SetVolume
+Make sure the volume is 10 percent.,SetVolume
+Make sure the volume is 10 percent.,SetVolume
+Make sure the volume is 10 percent.,SetVolume
+Make sure the volume is 10 percent.,SetVolume
+Make sure the volume is 10 percent.,SetVolume
+Make sure the volume is 10 percent.,SetVolume
+Can you put the volume at 60?,SetVolume
+Can you put the volume at 60?,SetVolume
+Can you put the volume at 60?,SetVolume
+Can you put the volume at 60?,SetVolume
+Can you put the volume at 60?,SetVolume
+Can you put the volume at 60?,SetVolume
+Can you put the volume at 60?,SetVolume
+Can you put the volume at 60?,SetVolume
+Can you book a table at an Italian restaurant?,BookRestaurant
+Can you book a table at an Italian restaurant?,BookRestaurant
+Can you book a table at an Italian restaurant?,BookRestaurant
+Can you book a table at an Italian restaurant?,BookRestaurant
+Can you book a table at an Italian restaurant?,BookRestaurant
+Can you book a table at an Italian restaurant?,BookRestaurant
+Can you book a table at an Italian restaurant?,BookRestaurant
+Can you book a table at an Italian restaurant?,BookRestaurant
+I want to make a reservation for two tonight.,BookRestaurant
+I want to make a reservation for two tonight.,BookRestaurant
+I want to make a reservation for two tonight.,BookRestaurant
+I want to make a reservation for two tonight.,BookRestaurant
+I want to make a reservation for two tonight.,BookRestaurant
+I want to make a reservation for two tonight.,BookRestaurant
+I want to make a reservation for two tonight.,BookRestaurant
+I want to make a reservation for two tonight.,BookRestaurant
+Find a restaurant for lunch and book it.,BookRestaurant
+Find a restaurant for lunch and book it.,BookRestaurant
+Find a restaurant for lunch and book it.,BookRestaurant
+Find a restaurant for lunch and book it.,BookRestaurant
+Find a restaurant for lunch and book it.,BookRestaurant
+Find a restaurant for lunch and book it.,BookRestaurant
+Find a restaurant for lunch and book it.,BookRestaurant
+Find a restaurant for lunch and book it.,BookRestaurant
+Reserve a table at the nearest diner.,BookRestaurant
+Reserve a table at the nearest diner.,BookRestaurant
+Reserve a table at the nearest diner.,BookRestaurant
+Reserve a table at the nearest diner.,BookRestaurant
+Reserve a table at the nearest diner.,BookRestaurant
+Reserve a table at the nearest diner.,BookRestaurant
+Reserve a table at the nearest diner.,BookRestaurant
+Reserve a table at the nearest diner.,BookRestaurant
+Can you schedule a reservation at a Chinese place?,BookRestaurant
+Can you schedule a reservation at a Chinese place?,BookRestaurant
+Can you schedule a reservation at a Chinese place?,BookRestaurant
+Can you schedule a reservation at a Chinese place?,BookRestaurant
+Can you schedule a reservation at a Chinese place?,BookRestaurant
+Can you schedule a reservation at a Chinese place?,BookRestaurant
+Can you schedule a reservation at a Chinese place?,BookRestaurant
+Can you schedule a reservation at a Chinese place?,BookRestaurant
+I'd like to book a reservation for dinner at 7 PM.,BookRestaurant
+I'd like to book a reservation for dinner at 7 PM.,BookRestaurant
+I'd like to book a reservation for dinner at 7 PM.,BookRestaurant
+I'd like to book a reservation for dinner at 7 PM.,BookRestaurant
+I'd like to book a reservation for dinner at 7 PM.,BookRestaurant
+I'd like to book a reservation for dinner at 7 PM.,BookRestaurant
+I'd like to book a reservation for dinner at 7 PM.,BookRestaurant
+I'd like to book a reservation for dinner at 7 PM.,BookRestaurant
+Can you make a reservation for four people?,BookRestaurant
+Can you make a reservation for four people?,BookRestaurant
+Can you make a reservation for four people?,BookRestaurant
+Can you make a reservation for four people?,BookRestaurant
+Can you make a reservation for four people?,BookRestaurant
+Can you make a reservation for four people?,BookRestaurant
+Can you make a reservation for four people?,BookRestaurant
+Can you make a reservation for four people?,BookRestaurant
+Book a table for two at my favorite restaurant.,BookRestaurant
+Book a table for two at my favorite restaurant.,BookRestaurant
+Book a table for two at my favorite restaurant.,BookRestaurant
+Book a table for two at my favorite restaurant.,BookRestaurant
+Book a table for two at my favorite restaurant.,BookRestaurant
+Book a table for two at my favorite restaurant.,BookRestaurant
+Book a table for two at my favorite restaurant.,BookRestaurant
+Book a table for two at my favorite restaurant.,BookRestaurant
+Find a restaurant and make a reservation for lunch.,BookRestaurant
+Find a restaurant and make a reservation for lunch.,BookRestaurant
+Find a restaurant and make a reservation for lunch.,BookRestaurant
+Find a restaurant and make a reservation for lunch.,BookRestaurant
+Find a restaurant and make a reservation for lunch.,BookRestaurant
+Find a restaurant and make a reservation for lunch.,BookRestaurant
+Find a restaurant and make a reservation for lunch.,BookRestaurant
+Find a restaurant and make a reservation for lunch.,BookRestaurant
+Reserve a spot for us at the steakhouse.,BookRestaurant
+Reserve a spot for us at the steakhouse.,BookRestaurant
+Reserve a spot for us at the steakhouse.,BookRestaurant
+Reserve a spot for us at the steakhouse.,BookRestaurant
+Reserve a spot for us at the steakhouse.,BookRestaurant
+Reserve a spot for us at the steakhouse.,BookRestaurant
+Reserve a spot for us at the steakhouse.,BookRestaurant
+Reserve a spot for us at the steakhouse.,BookRestaurant
+Mute the volume.,MuteVolume
+Mute the volume.,MuteVolume
+Mute the volume.,MuteVolume
+Mute the volume.,MuteVolume
+Mute the volume.,MuteVolume
+Mute the volume.,MuteVolume
+Mute the volume.,MuteVolume
+Mute the volume.,MuteVolume
+Can you mute the sound?,MuteVolume
+Can you mute the sound?,MuteVolume
+Can you mute the sound?,MuteVolume
+Can you mute the sound?,MuteVolume
+Can you mute the sound?,MuteVolume
+Can you mute the sound?,MuteVolume
+Can you mute the sound?,MuteVolume
+Can you mute the sound?,MuteVolume
+Mute everything right now.,MuteVolume
+Mute everything right now.,MuteVolume
+Mute everything right now.,MuteVolume
+Mute everything right now.,MuteVolume
+Mute everything right now.,MuteVolume
+Mute everything right now.,MuteVolume
+Mute everything right now.,MuteVolume
+Mute everything right now.,MuteVolume
+Turn off the sound.,MuteVolume
+Turn off the sound.,MuteVolume
+Turn off the sound.,MuteVolume
+Turn off the sound.,MuteVolume
+Turn off the sound.,MuteVolume
+Turn off the sound.,MuteVolume
+Turn off the sound.,MuteVolume
+Turn off the sound.,MuteVolume
+Can you silence the volume?,MuteVolume
+Can you silence the volume?,MuteVolume
+Can you silence the volume?,MuteVolume
+Can you silence the volume?,MuteVolume
+Can you silence the volume?,MuteVolume
+Can you silence the volume?,MuteVolume
+Can you silence the volume?,MuteVolume
+Can you silence the volume?,MuteVolume
+I need you to mute the music.,MuteVolume
+I need you to mute the music.,MuteVolume
+I need you to mute the music.,MuteVolume
+I need you to mute the music.,MuteVolume
+I need you to mute the music.,MuteVolume
+I need you to mute the music.,MuteVolume
+I need you to mute the music.,MuteVolume
+I need you to mute the music.,MuteVolume
+Mute all audio right now.,MuteVolume
+Mute all audio right now.,MuteVolume
+Mute all audio right now.,MuteVolume
+Mute all audio right now.,MuteVolume
+Mute all audio right now.,MuteVolume
+Mute all audio right now.,MuteVolume
+Mute all audio right now.,MuteVolume
+Mute all audio right now.,MuteVolume
+Can you turn the volume off?,MuteVolume
+Can you turn the volume off?,MuteVolume
+Can you turn the volume off?,MuteVolume
+Can you turn the volume off?,MuteVolume
+Can you turn the volume off?,MuteVolume
+Can you turn the volume off?,MuteVolume
+Can you turn the volume off?,MuteVolume
+Can you turn the volume off?,MuteVolume
+Switch the sound off.,MuteVolume
+Switch the sound off.,MuteVolume
+Switch the sound off.,MuteVolume
+Switch the sound off.,MuteVolume
+Switch the sound off.,MuteVolume
+Switch the sound off.,MuteVolume
+Switch the sound off.,MuteVolume
+Switch the sound off.,MuteVolume
+Mute the audio for now.,MuteVolume
+Mute the audio for now.,MuteVolume
+Mute the audio for now.,MuteVolume
+Mute the audio for now.,MuteVolume
+Mute the audio for now.,MuteVolume
+Mute the audio for now.,MuteVolume
+Mute the audio for now.,MuteVolume
+Mute the audio for now.,MuteVolume
+Increase the volume a bit.,IncreaseVolume
+Increase the volume a bit.,IncreaseVolume
+Increase the volume a bit.,IncreaseVolume
+Increase the volume a bit.,IncreaseVolume
+Increase the volume a bit.,IncreaseVolume
+Increase the volume a bit.,IncreaseVolume
+Increase the volume a bit.,IncreaseVolume
+Increase the volume a bit.,IncreaseVolume
+Can you turn the volume up?,IncreaseVolume
+Can you turn the volume up?,IncreaseVolume
+Can you turn the volume up?,IncreaseVolume
+Can you turn the volume up?,IncreaseVolume
+Can you turn the volume up?,IncreaseVolume
+Can you turn the volume up?,IncreaseVolume
+Can you turn the volume up?,IncreaseVolume
+Can you turn the volume up?,IncreaseVolume
+Turn up the music.,IncreaseVolume
+Turn up the music.,IncreaseVolume
+Turn up the music.,IncreaseVolume
+Turn up the music.,IncreaseVolume
+Turn up the music.,IncreaseVolume
+Turn up the music.,IncreaseVolume
+Turn up the music.,IncreaseVolume
+Turn up the music.,IncreaseVolume
+Raise the volume to a higher level.,IncreaseVolume
+Raise the volume to a higher level.,IncreaseVolume
+Raise the volume to a higher level.,IncreaseVolume
+Raise the volume to a higher level.,IncreaseVolume
+Raise the volume to a higher level.,IncreaseVolume
+Raise the volume to a higher level.,IncreaseVolume
+Raise the volume to a higher level.,IncreaseVolume
+Raise the volume to a higher level.,IncreaseVolume
+Can you boost the sound?,IncreaseVolume
+Can you boost the sound?,IncreaseVolume
+Can you boost the sound?,IncreaseVolume
+Can you boost the sound?,IncreaseVolume
+Can you boost the sound?,IncreaseVolume
+Can you boost the sound?,IncreaseVolume
+Can you boost the sound?,IncreaseVolume
+Can you boost the sound?,IncreaseVolume
+Increase the volume by 20 percent.,IncreaseVolume
+Increase the volume by 20 percent.,IncreaseVolume
+Increase the volume by 20 percent.,IncreaseVolume
+Increase the volume by 20 percent.,IncreaseVolume
+Increase the volume by 20 percent.,IncreaseVolume
+Increase the volume by 20 percent.,IncreaseVolume
+Increase the volume by 20 percent.,IncreaseVolume
+Increase the volume by 20 percent.,IncreaseVolume
+Make the sound louder.,IncreaseVolume
+Make the sound louder.,IncreaseVolume
+Make the sound louder.,IncreaseVolume
+Make the sound louder.,IncreaseVolume
+Make the sound louder.,IncreaseVolume
+Make the sound louder.,IncreaseVolume
+Make the sound louder.,IncreaseVolume
+Make the sound louder.,IncreaseVolume
+Turn up the volume by 10 percent.,IncreaseVolume
+Turn up the volume by 10 percent.,IncreaseVolume
+Turn up the volume by 10 percent.,IncreaseVolume
+Turn up the volume by 10 percent.,IncreaseVolume
+Turn up the volume by 10 percent.,IncreaseVolume
+Turn up the volume by 10 percent.,IncreaseVolume
+Turn up the volume by 10 percent.,IncreaseVolume
+Turn up the volume by 10 percent.,IncreaseVolume
+Increase the music volume.,IncreaseVolume
+Increase the music volume.,IncreaseVolume
+Increase the music volume.,IncreaseVolume
+Increase the music volume.,IncreaseVolume
+Increase the music volume.,IncreaseVolume
+Increase the music volume.,IncreaseVolume
+Increase the music volume.,IncreaseVolume
+Increase the music volume.,IncreaseVolume
+Can you raise the volume by a bit?,IncreaseVolume
+Can you raise the volume by a bit?,IncreaseVolume
+Can you raise the volume by a bit?,IncreaseVolume
+Can you raise the volume by a bit?,IncreaseVolume
+Can you raise the volume by a bit?,IncreaseVolume
+Can you raise the volume by a bit?,IncreaseVolume
+Can you raise the volume by a bit?,IncreaseVolume
+Can you raise the volume by a bit?,IncreaseVolume
+Can you lower the volume?,DecreaseVolume
+Can you lower the volume?,DecreaseVolume
+Can you lower the volume?,DecreaseVolume
+Can you lower the volume?,DecreaseVolume
+Can you lower the volume?,DecreaseVolume
+Can you lower the volume?,DecreaseVolume
+Can you lower the volume?,DecreaseVolume
+Can you lower the volume?,DecreaseVolume
+Decrease the sound a little.,DecreaseVolume
+Decrease the sound a little.,DecreaseVolume
+Decrease the sound a little.,DecreaseVolume
+Decrease the sound a little.,DecreaseVolume
+Decrease the sound a little.,DecreaseVolume
+Decrease the sound a little.,DecreaseVolume
+Decrease the sound a little.,DecreaseVolume
+Decrease the sound a little.,DecreaseVolume
+Turn the volume down.,DecreaseVolume
+Turn the volume down.,DecreaseVolume
+Turn the volume down.,DecreaseVolume
+Turn the volume down.,DecreaseVolume
+Turn the volume down.,DecreaseVolume
+Turn the volume down.,DecreaseVolume
+Turn the volume down.,DecreaseVolume
+Turn the volume down.,DecreaseVolume
+I need you to lower the music.,DecreaseVolume
+I need you to lower the music.,DecreaseVolume
+I need you to lower the music.,DecreaseVolume
+I need you to lower the music.,DecreaseVolume
+I need you to lower the music.,DecreaseVolume
+I need you to lower the music.,DecreaseVolume
+I need you to lower the music.,DecreaseVolume
+I need you to lower the music.,DecreaseVolume
+Reduce the volume by 10 percent.,DecreaseVolume
+Reduce the volume by 10 percent.,DecreaseVolume
+Reduce the volume by 10 percent.,DecreaseVolume
+Reduce the volume by 10 percent.,DecreaseVolume
+Reduce the volume by 10 percent.,DecreaseVolume
+Reduce the volume by 10 percent.,DecreaseVolume
+Reduce the volume by 10 percent.,DecreaseVolume
+Reduce the volume by 10 percent.,DecreaseVolume
+Turn the volume down by 20 percent.,DecreaseVolume
+Turn the volume down by 20 percent.,DecreaseVolume
+Turn the volume down by 20 percent.,DecreaseVolume
+Turn the volume down by 20 percent.,DecreaseVolume
+Turn the volume down by 20 percent.,DecreaseVolume
+Turn the volume down by 20 percent.,DecreaseVolume
+Turn the volume down by 20 percent.,DecreaseVolume
+Turn the volume down by 20 percent.,DecreaseVolume
+Can you bring the volume down?,DecreaseVolume
+Can you bring the volume down?,DecreaseVolume
+Can you bring the volume down?,DecreaseVolume
+Can you bring the volume down?,DecreaseVolume
+Can you bring the volume down?,DecreaseVolume
+Can you bring the volume down?,DecreaseVolume
+Can you bring the volume down?,DecreaseVolume
+Can you bring the volume down?,DecreaseVolume
+Lower the sound by 5 percent.,DecreaseVolume
+Lower the sound by 5 percent.,DecreaseVolume
+Lower the sound by 5 percent.,DecreaseVolume
+Lower the sound by 5 percent.,DecreaseVolume
+Lower the sound by 5 percent.,DecreaseVolume
+Lower the sound by 5 percent.,DecreaseVolume
+Lower the sound by 5 percent.,DecreaseVolume
+Lower the sound by 5 percent.,DecreaseVolume
+Decrease the volume to a quieter level.,DecreaseVolume
+Decrease the volume to a quieter level.,DecreaseVolume
+Decrease the volume to a quieter level.,DecreaseVolume
+Decrease the volume to a quieter level.,DecreaseVolume
+Decrease the volume to a quieter level.,DecreaseVolume
+Decrease the volume to a quieter level.,DecreaseVolume
+Decrease the volume to a quieter level.,DecreaseVolume
+Decrease the volume to a quieter level.,DecreaseVolume
+Turn down the music a bit.,DecreaseVolume
+Turn down the music a bit.,DecreaseVolume
+Turn down the music a bit.,DecreaseVolume
+Turn down the music a bit.,DecreaseVolume
+Turn down the music a bit.,DecreaseVolume
+Turn down the music a bit.,DecreaseVolume
+Turn down the music a bit.,DecreaseVolume
+Turn down the music a bit.,DecreaseVolume
+Can you turn on the lights?,TurnOnLights
+Can you turn on the lights?,TurnOnLights
+Can you turn on the lights?,TurnOnLights
+Can you turn on the lights?,TurnOnLights
+Can you turn on the lights?,TurnOnLights
+Can you turn on the lights?,TurnOnLights
+Can you turn on the lights?,TurnOnLights
+Can you turn on the lights?,TurnOnLights
+Switch on the living room lights.,TurnOnLights
+Switch on the living room lights.,TurnOnLights
+Switch on the living room lights.,TurnOnLights
+Switch on the living room lights.,TurnOnLights
+Switch on the living room lights.,TurnOnLights
+Switch on the living room lights.,TurnOnLights
+Switch on the living room lights.,TurnOnLights
+Switch on the living room lights.,TurnOnLights
+Turn on all the lights in the house.,TurnOnLights
+Turn on all the lights in the house.,TurnOnLights
+Turn on all the lights in the house.,TurnOnLights
+Turn on all the lights in the house.,TurnOnLights
+Turn on all the lights in the house.,TurnOnLights
+Turn on all the lights in the house.,TurnOnLights
+Turn on all the lights in the house.,TurnOnLights
+Turn on all the lights in the house.,TurnOnLights
+Can you light up the room?,TurnOnLights
+Can you light up the room?,TurnOnLights
+Can you light up the room?,TurnOnLights
+Can you light up the room?,TurnOnLights
+Can you light up the room?,TurnOnLights
+Can you light up the room?,TurnOnLights
+Can you light up the room?,TurnOnLights
+Can you light up the room?,TurnOnLights
+Switch on the bedroom light.,TurnOnLights
+Switch on the bedroom light.,TurnOnLights
+Switch on the bedroom light.,TurnOnLights
+Switch on the bedroom light.,TurnOnLights
+Switch on the bedroom light.,TurnOnLights
+Switch on the bedroom light.,TurnOnLights
+Switch on the bedroom light.,TurnOnLights
+Switch on the bedroom light.,TurnOnLights
+Turn the lights on in the kitchen.,TurnOnLights
+Turn the lights on in the kitchen.,TurnOnLights
+Turn the lights on in the kitchen.,TurnOnLights
+Turn the lights on in the kitchen.,TurnOnLights
+Turn the lights on in the kitchen.,TurnOnLights
+Turn the lights on in the kitchen.,TurnOnLights
+Turn the lights on in the kitchen.,TurnOnLights
+Turn the lights on in the kitchen.,TurnOnLights
+Can you turn on the lights in the hallway?,TurnOnLights
+Can you turn on the lights in the hallway?,TurnOnLights
+Can you turn on the lights in the hallway?,TurnOnLights
+Can you turn on the lights in the hallway?,TurnOnLights
+Can you turn on the lights in the hallway?,TurnOnLights
+Can you turn on the lights in the hallway?,TurnOnLights
+Can you turn on the lights in the hallway?,TurnOnLights
+Can you turn on the lights in the hallway?,TurnOnLights
+Light up the backyard.,TurnOnLights
+Light up the backyard.,TurnOnLights
+Light up the backyard.,TurnOnLights
+Light up the backyard.,TurnOnLights
+Light up the backyard.,TurnOnLights
+Light up the backyard.,TurnOnLights
+Light up the backyard.,TurnOnLights
+Light up the backyard.,TurnOnLights
+Can you switch on the porch light?,TurnOnLights
+Can you switch on the porch light?,TurnOnLights
+Can you switch on the porch light?,TurnOnLights
+Can you switch on the porch light?,TurnOnLights
+Can you switch on the porch light?,TurnOnLights
+Can you switch on the porch light?,TurnOnLights
+Can you switch on the porch light?,TurnOnLights
+Can you switch on the porch light?,TurnOnLights
+Turn on the lights in the garage.,TurnOnLights
+Turn on the lights in the garage.,TurnOnLights
+Turn on the lights in the garage.,TurnOnLights
+Turn on the lights in the garage.,TurnOnLights
+Turn on the lights in the garage.,TurnOnLights
+Turn on the lights in the garage.,TurnOnLights
+Turn on the lights in the garage.,TurnOnLights
+Turn on the lights in the garage.,TurnOnLights
+Play the latest YouTube video from MrBeast.,YoutubeVideos
+Can you play the video tutorial on Python from YouTube?,YoutubeVideos
+Play the new vlog from Casey Neistat.,YoutubeVideos
+Play that viral cat video on YouTube.,YoutubeVideos
+Please play the YouTube video about climate change.,YoutubeVideos
+Play some trending YouTube videos.,YoutubeVideos
+Play a YouTube video about space exploration.,YoutubeVideos
+Can you play a random YouTube video?,YoutubeVideos
+Play a cooking video from YouTube.,YoutubeVideos
+Play a YouTube playlist of tech reviews.,YoutubeVideos
+Play the video highlights from last night's football game.,YoutubeVideos
+Play a documentary on YouTube.,YoutubeVideos
+Show me YouTube videos about basketball.,YoutubeVideos
+Play a YouTube video from the food channel.,YoutubeVideos
+Find and play a YouTube video about movies.,YoutubeVideos
+Please play some YouTube videos on how to cook.,YoutubeVideos
+Play a YouTube playlist of fashion videos.,YoutubeVideos
+Play the YouTube vlog about latest gadgets.,YoutubeVideos
+Play a random video on YouTube related to comedy.,YoutubeVideos
+Can you play the YouTube tutorial on art?,YoutubeVideos
+Please play some YouTube videos on basketball.,YoutubeVideos
+Play the YouTube vlog about technology.,YoutubeVideos
+Please play some YouTube videos on gaming.,YoutubeVideos
+Play the YouTube video about fitness.,YoutubeVideos
+Play a documentary on YouTube about science.,YoutubeVideos
+Play a YouTube playlist of space exploration videos.,YoutubeVideos
+Play a random video on YouTube related to cats.,YoutubeVideos
+Can you play the YouTube tutorial on fitness?,YoutubeVideos
+Play the YouTube video about dogs.,YoutubeVideos
+Play a documentary on YouTube about football.,YoutubeVideos
+Play a YouTube video from the wildlife channel.,YoutubeVideos
+Play the YouTube vlog about latest gadgets.,YoutubeVideos
+Play a random video on YouTube related to cars.,YoutubeVideos
+Play a YouTube playlist of fashion videos.,YoutubeVideos
+Play a YouTube playlist of gaming videos.,YoutubeVideos
+Play the YouTube vlog about celebrity interviews.,YoutubeVideos
+Play the latest YouTube video on tech reviews.,YoutubeVideos
+Play the latest YouTube video on movie trailers.,YoutubeVideos
+Play a documentary on YouTube about cars.,YoutubeVideos
+Play the latest YouTube video on fashion.,YoutubeVideos
+Play the YouTube vlog about wildlife.,YoutubeVideos
+Play a YouTube video from the news channel.,YoutubeVideos
+Play the YouTube vlog about fitness.,YoutubeVideos
+Play a YouTube playlist of AI videos.,YoutubeVideos
+Please play some YouTube videos on food.,YoutubeVideos
+Show me YouTube videos about food.,YoutubeVideos
+Please play some YouTube videos on tech reviews.,YoutubeVideos
+Play a YouTube playlist of how to cook videos.,YoutubeVideos
+Play a YouTube video from the movies channel.,YoutubeVideos
+Play the YouTube vlog about fitness.,YoutubeVideos
+Play the top trending YouTube video on news.,YoutubeVideos
+Play a YouTube video from the space exploration channel.,YoutubeVideos
+Play a random video on YouTube related to DIY projects.,YoutubeVideos
+Play a documentary on YouTube about movies.,YoutubeVideos
+Can you play the YouTube tutorial on machine learning?,YoutubeVideos
+Show me YouTube videos about football.,YoutubeVideos
+Play the YouTube video about latest gadgets.,YoutubeVideos
+Can you play the YouTube tutorial on latest gadgets?,YoutubeVideos
+Play the YouTube video about basketball.,YoutubeVideos
+Play a YouTube video from the cats channel.,YoutubeVideos
+Play the YouTube vlog about tech reviews.,YoutubeVideos
+Play the latest YouTube video on football.,YoutubeVideos
+Play a YouTube video from the how to cook channel.,YoutubeVideos
+Show me YouTube videos about dogs.,YoutubeVideos
+Please play some YouTube videos on wildlife.,YoutubeVideos
+Show me YouTube videos about news.,YoutubeVideos
+Play a documentary on YouTube about movies.,YoutubeVideos
+Play the YouTube video about how to cook.,YoutubeVideos
+Play a documentary on YouTube about vlogs.,YoutubeVideos
+Play a YouTube playlist of latest gadgets videos.,YoutubeVideos
+Show me YouTube videos about fitness.,YoutubeVideos
+Find and play a YouTube video about fashion.,YoutubeVideos
+Find and play a YouTube video about wildlife.,YoutubeVideos
+Play a random video on YouTube related to machine learning.,YoutubeVideos
+Find and play a YouTube video about machine learning.,YoutubeVideos
+Play a YouTube playlist of technology videos.,YoutubeVideos
+Can you play the YouTube tutorial on fashion?,YoutubeVideos
+Play the YouTube vlog about art.,YoutubeVideos
+Play a YouTube video from the vlogs channel.,YoutubeVideos
+Play a YouTube playlist of documentaries videos.,YoutubeVideos
+Play a YouTube video from the cats channel.,YoutubeVideos
+Can you play the YouTube tutorial on sports highlights?,YoutubeVideos
+Play a YouTube video from the basketball channel.,YoutubeVideos
+Can you play the YouTube tutorial on comedy?,YoutubeVideos
+Play the top trending YouTube video on climate change.,YoutubeVideos
+Can you play the YouTube tutorial on latest gadgets?,YoutubeVideos
+Play a YouTube playlist of basketball videos.,YoutubeVideos
+Find and play a YouTube video about wildlife.,YoutubeVideos
+Play the latest YouTube video on Python programming.,YoutubeVideos
+Play the latest YouTube video on science.,YoutubeVideos
+Play a YouTube video from the wildlife channel.,YoutubeVideos
+Play a documentary on YouTube about science.,YoutubeVideos
+Play a YouTube playlist of celebrity interviews videos.,YoutubeVideos
+Play the YouTube video about fashion.,YoutubeVideos
+Show me YouTube videos about AI.,YoutubeVideos
+Find and play a YouTube video about cats.,YoutubeVideos
+Play the YouTube vlog about dogs.,YoutubeVideos
+Play the YouTube vlog about sports highlights.,YoutubeVideos
+Find and play a YouTube video about art.,YoutubeVideos
+Find and play a YouTube video about history.,YoutubeVideos
+Play a documentary on YouTube about DIY projects.,YoutubeVideos
+Play a documentary on YouTube about dogs.,YoutubeVideos
+Can you play the YouTube tutorial on machine learning?,YoutubeVideos
+Can you play the YouTube tutorial on travel?,YoutubeVideos
+Play a YouTube playlist of technology videos.,YoutubeVideos
+Find and play a YouTube video about AI.,YoutubeVideos
+Can you play the YouTube tutorial on latest gadgets?,YoutubeVideos
+Play a documentary on YouTube about music videos.,YoutubeVideos
+Play a random video on YouTube related to machine learning.,YoutubeVideos
+Play the YouTube vlog about food.,YoutubeVideos
+Play a random video on YouTube related to comedy.,YoutubeVideos
+Can you play the YouTube tutorial on cars?,YoutubeVideos
+Translate 'hello' to Spanish.,Translate
+Translate 'goodbye' to Spanish.,Translate
+Translate 'how are you' to Spanish.,Translate
+Translate 'thank you' to Spanish.,Translate
+Translate 'what time is it' to Spanish.,Translate
+Translate 'where is the train station' to Spanish.,Translate
+Translate 'can I have a coffee' to Spanish.,Translate
+Translate 'good morning' to Spanish.,Translate
+Translate 'have a nice day' to Spanish.,Translate
+Translate 'please' to Spanish.,Translate
+Translate 'excuse me' to Spanish.,Translate
+Translate 'see you later' to Spanish.,Translate
+Translate 'I'm sorry' to Spanish.,Translate
+Translate 'I love you' to Spanish.,Translate
+Translate 'where is the hotel' to Spanish.,Translate
+Translate 'how much is this' to Spanish.,Translate
+Translate 'what's your name' to Spanish.,Translate
+Translate 'can you help me' to Spanish.,Translate
+Translate 'I'm lost' to Spanish.,Translate
+Translate 'I don't understand' to Spanish.,Translate
+Translate 'hello' to Spanish.,Translate
+Translate 'goodbye' to Spanish.,Translate
+Translate 'how are you' to Spanish.,Translate
+Translate 'thank you' to Spanish.,Translate
+Translate 'what time is it' to Spanish.,Translate
+Translate 'where is the train station' to Spanish.,Translate
+Translate 'can I have a coffee' to Spanish.,Translate
+Translate 'good morning' to Spanish.,Translate
+Translate 'have a nice day' to Spanish.,Translate
+Translate 'please' to Spanish.,Translate
+Translate 'excuse me' to Spanish.,Translate
+Translate 'see you later' to Spanish.,Translate
+Translate 'I'm sorry' to Spanish.,Translate
+Translate 'I love you' to Spanish.,Translate
+Translate 'where is the hotel' to Spanish.,Translate
+Translate 'how much is this' to Spanish.,Translate
+Translate 'what's your name' to Spanish.,Translate
+Translate 'can you help me' to Spanish.,Translate
+Translate 'I'm lost' to Spanish.,Translate
+Translate 'I don't understand' to Spanish.,Translate
+Translate 'hello' to Spanish.,Translate
+Translate 'goodbye' to Spanish.,Translate
+Translate 'how are you' to Spanish.,Translate
+Translate 'thank you' to Spanish.,Translate
+Translate 'what time is it' to Spanish.,Translate
+Translate 'where is the train station' to Spanish.,Translate
+Translate 'can I have a coffee' to Spanish.,Translate
+Translate 'good morning' to Spanish.,Translate
+Translate 'have a nice day' to Spanish.,Translate
+Translate 'please' to Spanish.,Translate
+Translate 'excuse me' to Spanish.,Translate
+Translate 'see you later' to Spanish.,Translate
+Translate 'I'm sorry' to Spanish.,Translate
+Translate 'I love you' to Spanish.,Translate
+Translate 'where is the hotel' to Spanish.,Translate
+Translate 'how much is this' to Spanish.,Translate
+Translate 'what's your name' to Spanish.,Translate
+Translate 'can you help me' to Spanish.,Translate
+Translate 'I'm lost' to Spanish.,Translate
+Translate 'I don't understand' to Spanish.,Translate
+Translate 'hello' to Spanish.,Translate
+Translate 'goodbye' to Spanish.,Translate
+Translate 'how are you' to Spanish.,Translate
+Translate 'thank you' to Spanish.,Translate
+Translate 'what time is it' to Spanish.,Translate
+Translate 'where is the train station' to Spanish.,Translate
+Translate 'can I have a coffee' to Spanish.,Translate
+Translate 'good morning' to Spanish.,Translate
+Translate 'have a nice day' to Spanish.,Translate
+Translate 'please' to Spanish.,Translate
+Translate 'excuse me' to Spanish.,Translate
+Translate 'see you later' to Spanish.,Translate
+Translate 'I'm sorry' to Spanish.,Translate
+Translate 'I love you' to Spanish.,Translate
+Translate 'where is the hotel' to Spanish.,Translate
+Translate 'how much is this' to Spanish.,Translate
+Translate 'what's your name' to Spanish.,Translate
+Translate 'can you help me' to Spanish.,Translate
+Translate 'I'm lost' to Spanish.,Translate
+Translate 'I don't understand' to Spanish.,Translate
+Translate 'hello' to Spanish.,Translate
+Translate 'goodbye' to Spanish.,Translate
+Translate 'how are you' to Spanish.,Translate
+Translate 'thank you' to Spanish.,Translate
+Translate 'what time is it' to Spanish.,Translate
+Translate 'where is the train station' to Spanish.,Translate
+Translate 'can I have a coffee' to Spanish.,Translate
+Translate 'good morning' to Spanish.,Translate
+Translate 'have a nice day' to Spanish.,Translate
+Translate 'please' to Spanish.,Translate
+Translate 'excuse me' to Spanish.,Translate
+Translate 'see you later' to Spanish.,Translate
+Translate 'I'm sorry' to Spanish.,Translate
+Translate 'I love you' to Spanish.,Translate
+Translate 'where is the hotel' to Spanish.,Translate
+Translate 'how much is this' to Spanish.,Translate
+Translate 'what's your name' to Spanish.,Translate
+Translate 'can you help me' to Spanish.,Translate
+Translate 'I'm lost' to Spanish.,Translate
+Translate 'I don't understand' to Spanish.,Translate
+What is the stock price of Apple today?,StockMarketQuery
+What is the stock price of Tesla today?,StockMarketQuery
+What is the stock price of Amazon today?,StockMarketQuery
+What is the stock price of Microsoft today?,StockMarketQuery
+How did Google perform in the last quarter?,StockMarketQuery
+How did Netflix perform in the last quarter?,StockMarketQuery
+How did NVIDIA perform in the last quarter?,StockMarketQuery
+How did IBM perform in the last quarter?,StockMarketQuery
+Show me the latest news on Visa stock.,StockMarketQuery
+Show me the latest news on Coca-Cola stock.,StockMarketQuery
+Show me the latest news on Pepsi stock.,StockMarketQuery
+Show me the latest news on Uber stock.,StockMarketQuery
+Should I buy or sell Samsung shares?,StockMarketQuery
+Should I buy or sell Adobe shares?,StockMarketQuery
+Should I buy or sell Sony shares?,StockMarketQuery
+Should I buy or sell PayPal shares?,StockMarketQuery
+What is the forecast for Ford's stock price?,StockMarketQuery
+What is the forecast for Boeing's stock price?,StockMarketQuery
+What is the forecast for Intel's stock price?,StockMarketQuery
+What is the forecast for Facebook's stock price?,StockMarketQuery
+What is the stock price of Apple today?,StockMarketQuery
+What is the stock price of Tesla today?,StockMarketQuery
+What is the stock price of Amazon today?,StockMarketQuery
+What is the stock price of Microsoft today?,StockMarketQuery
+How did Google perform in the last quarter?,StockMarketQuery
+How did Netflix perform in the last quarter?,StockMarketQuery
+How did NVIDIA perform in the last quarter?,StockMarketQuery
+How did IBM perform in the last quarter?,StockMarketQuery
+Show me the latest news on Visa stock.,StockMarketQuery
+Show me the latest news on Coca-Cola stock.,StockMarketQuery
+Show me the latest news on Pepsi stock.,StockMarketQuery
+Show me the latest news on Uber stock.,StockMarketQuery
+Should I buy or sell Samsung shares?,StockMarketQuery
+Should I buy or sell Adobe shares?,StockMarketQuery
+Should I buy or sell Sony shares?,StockMarketQuery
+Should I buy or sell PayPal shares?,StockMarketQuery
+What is the forecast for Ford's stock price?,StockMarketQuery
+What is the forecast for Boeing's stock price?,StockMarketQuery
+What is the forecast for Intel's stock price?,StockMarketQuery
+What is the forecast for Facebook's stock price?,StockMarketQuery
+What is the stock price of Apple today?,StockMarketQuery
+What is the stock price of Tesla today?,StockMarketQuery
+What is the stock price of Amazon today?,StockMarketQuery
+What is the stock price of Microsoft today?,StockMarketQuery
+How did Google perform in the last quarter?,StockMarketQuery
+How did Netflix perform in the last quarter?,StockMarketQuery
+How did NVIDIA perform in the last quarter?,StockMarketQuery
+How did IBM perform in the last quarter?,StockMarketQuery
+Show me the latest news on Visa stock.,StockMarketQuery
+Show me the latest news on Coca-Cola stock.,StockMarketQuery
+Show me the latest news on Pepsi stock.,StockMarketQuery
+Show me the latest news on Uber stock.,StockMarketQuery
+Should I buy or sell Samsung shares?,StockMarketQuery
+Should I buy or sell Adobe shares?,StockMarketQuery
+Should I buy or sell Sony shares?,StockMarketQuery
+Should I buy or sell PayPal shares?,StockMarketQuery
+What is the forecast for Ford's stock price?,StockMarketQuery
+What is the forecast for Boeing's stock price?,StockMarketQuery
+What is the forecast for Intel's stock price?,StockMarketQuery
+What is the forecast for Facebook's stock price?,StockMarketQuery
+What is the stock price of Apple today?,StockMarketQuery
+What is the stock price of Tesla today?,StockMarketQuery
+What is the stock price of Amazon today?,StockMarketQuery
+What is the stock price of Microsoft today?,StockMarketQuery
+How did Google perform in the last quarter?,StockMarketQuery
+How did Netflix perform in the last quarter?,StockMarketQuery
+How did NVIDIA perform in the last quarter?,StockMarketQuery
+How did IBM perform in the last quarter?,StockMarketQuery
+Show me the latest news on Visa stock.,StockMarketQuery
+Show me the latest news on Coca-Cola stock.,StockMarketQuery
+Show me the latest news on Pepsi stock.,StockMarketQuery
+Show me the latest news on Uber stock.,StockMarketQuery
+Should I buy or sell Samsung shares?,StockMarketQuery
+Should I buy or sell Adobe shares?,StockMarketQuery
+Should I buy or sell Sony shares?,StockMarketQuery
+Should I buy or sell PayPal shares?,StockMarketQuery
+What is the forecast for Ford's stock price?,StockMarketQuery
+What is the forecast for Boeing's stock price?,StockMarketQuery
+What is the forecast for Intel's stock price?,StockMarketQuery
+What is the forecast for Facebook's stock price?,StockMarketQuery
+What is the stock price of Apple today?,StockMarketQuery
+What is the stock price of Tesla today?,StockMarketQuery
+What is the stock price of Amazon today?,StockMarketQuery
+What is the stock price of Microsoft today?,StockMarketQuery
+How did Google perform in the last quarter?,StockMarketQuery
+How did Netflix perform in the last quarter?,StockMarketQuery
+How did NVIDIA perform in the last quarter?,StockMarketQuery
+How did IBM perform in the last quarter?,StockMarketQuery
+Show me the latest news on Visa stock.,StockMarketQuery
+Show me the latest news on Coca-Cola stock.,StockMarketQuery
+Show me the latest news on Pepsi stock.,StockMarketQuery
+Show me the latest news on Uber stock.,StockMarketQuery
+Should I buy or sell Samsung shares?,StockMarketQuery
+Should I buy or sell Adobe shares?,StockMarketQuery
+Should I buy or sell Sony shares?,StockMarketQuery
+Should I buy or sell PayPal shares?,StockMarketQuery
+What is the forecast for Ford's stock price?,StockMarketQuery
+What is the forecast for Boeing's stock price?,StockMarketQuery
+What is the forecast for Intel's stock price?,StockMarketQuery
+What is the forecast for Facebook's stock price?,StockMarketQuery
+Open YouTube.,Initialize
+Open Spotify.,Initialize
+Open Google Chrome.,Initialize
+Open Slack.,Initialize
+Open Zoom.,Initialize
+Start Microsoft Word.,Initialize
+Start Excel.,Initialize
+Start PowerPoint.,Initialize
+Start Visual Studio.,Initialize
+Start Photoshop.,Initialize
+Launch Firefox.,Initialize
+Launch Steam.,Initialize
+Launch Discord.,Initialize
+Launch Notepad.,Initialize
+Launch Teams.,Initialize
+Can you open WhatsApp for me?,Initialize
+Can you open Telegram for me?,Initialize
+Can you open Outlook for me?,Initialize
+Can you open VLC Player for me?,Initialize
+Can you open Gmail for me?,Initialize
+I need to start Calculator.,Initialize
+I need to start Calendar.,Initialize
+I need to start Maps.,Initialize
+I need to start Twitter.,Initialize
+I need to start Instagram.,Initialize
+Open YouTube.,Initialize
+Open Spotify.,Initialize
+Open Google Chrome.,Initialize
+Open Slack.,Initialize
+Open Zoom.,Initialize
+Start Microsoft Word.,Initialize
+Start Excel.,Initialize
+Start PowerPoint.,Initialize
+Start Visual Studio.,Initialize
+Start Photoshop.,Initialize
+Launch Firefox.,Initialize
+Launch Steam.,Initialize
+Launch Discord.,Initialize
+Launch Notepad.,Initialize
+Launch Teams.,Initialize
+Can you open WhatsApp for me?,Initialize
+Can you open Telegram for me?,Initialize
+Can you open Outlook for me?,Initialize
+Can you open VLC Player for me?,Initialize
+Can you open Gmail for me?,Initialize
+I need to start Calculator.,Initialize
+I need to start Calendar.,Initialize
+I need to start Maps.,Initialize
+I need to start Twitter.,Initialize
+I need to start Instagram.,Initialize
+Open YouTube.,Initialize
+Open Spotify.,Initialize
+Open Google Chrome.,Initialize
+Open Slack.,Initialize
+Open Zoom.,Initialize
+Start Microsoft Word.,Initialize
+Start Excel.,Initialize
+Start PowerPoint.,Initialize
+Start Visual Studio.,Initialize
+Start Photoshop.,Initialize
+Launch Firefox.,Initialize
+Launch Steam.,Initialize
+Launch Discord.,Initialize
+Launch Notepad.,Initialize
+Launch Teams.,Initialize
+Can you open WhatsApp for me?,Initialize
+Can you open Telegram for me?,Initialize
+Can you open Outlook for me?,Initialize
+Can you open VLC Player for me?,Initialize
+Can you open Gmail for me?,Initialize
+I need to start Calculator.,Initialize
+I need to start Calendar.,Initialize
+I need to start Maps.,Initialize
+I need to start Twitter.,Initialize
+I need to start Instagram.,Initialize
+Open YouTube.,Initialize
+Open Spotify.,Initialize
+Open Google Chrome.,Initialize
+Open Slack.,Initialize
+Open Zoom.,Initialize
+Start Microsoft Word.,Initialize
+Start Excel.,Initialize
+Start PowerPoint.,Initialize
+Start Visual Studio.,Initialize
+Start Photoshop.,Initialize
+Launch Firefox.,Initialize
+Launch Steam.,Initialize
+Launch Discord.,Initialize
+Launch Notepad.,Initialize
+Launch Teams.,Initialize
+Can you open WhatsApp for me?,Initialize
+Can you open Telegram for me?,Initialize
+Can you open Outlook for me?,Initialize
+Can you open VLC Player for me?,Initialize
+Can you open Gmail for me?,Initialize
+I need to start Calculator.,Initialize
+I need to start Calendar.,Initialize
+I need to start Maps.,Initialize
+I need to start Twitter.,Initialize
+I need to start Instagram.,Initialize
+Tell me a joke.,Joke
+Make me laugh.,Joke
+Do you know any funny jokes?,Joke
+Say something funny.,Joke
+Can you tell me a dad joke?,Joke
+I need a good laugh.,Joke
+Tell me a knock-knock joke.,Joke
+Got any puns?,Joke
+Can you share a one-liner?,Joke
+What’s the funniest joke you know?,Joke
+Entertain me with a joke.,Joke
+Can you cheer me up with a joke?,Joke
+Tell a light-hearted joke.,Joke
+Say a witty joke.,Joke
+Tell a programmer joke.,Joke
+Do you know any animal jokes?,Joke
+Tell a science-related joke.,Joke
+Can you make a joke about robots?,Joke
+What’s your best joke about food?,Joke
+Do you know any jokes about work?,Joke
+Can you tell a school-related joke?,Joke
+Got any Christmas jokes?,Joke
+What’s the funniest pun you've got?,Joke
+Do you know any corny jokes?,Joke
+Can you say a cheesy joke?,Joke
+Tell me a joke.,Joke
+Make me laugh.,Joke
+Do you know any funny jokes?,Joke
+Say something funny.,Joke
+Can you tell me a dad joke?,Joke
+I need a good laugh.,Joke
+Tell me a knock-knock joke.,Joke
+Got any puns?,Joke
+Can you share a one-liner?,Joke
+What’s the funniest joke you know?,Joke
+Entertain me with a joke.,Joke
+Can you cheer me up with a joke?,Joke
+Tell a light-hearted joke.,Joke
+Say a witty joke.,Joke
+Tell a programmer joke.,Joke
+Do you know any animal jokes?,Joke
+Tell a science-related joke.,Joke
+Can you make a joke about robots?,Joke
+What’s your best joke about food?,Joke
+Do you know any jokes about work?,Joke
+Can you tell a school-related joke?,Joke
+Got any Christmas jokes?,Joke
+What’s the funniest pun you've got?,Joke
+Do you know any corny jokes?,Joke
+Can you say a cheesy joke?,Joke
+Tell me a joke.,Joke
+Make me laugh.,Joke
+Do you know any funny jokes?,Joke
+Say something funny.,Joke
+Can you tell me a dad joke?,Joke
+I need a good laugh.,Joke
+Tell me a knock-knock joke.,Joke
+Got any puns?,Joke
+Can you share a one-liner?,Joke
+What’s the funniest joke you know?,Joke
+Entertain me with a joke.,Joke
+Can you cheer me up with a joke?,Joke
+Tell a light-hearted joke.,Joke
+Say a witty joke.,Joke
+Tell a programmer joke.,Joke
+Do you know any animal jokes?,Joke
+Tell a science-related joke.,Joke
+Can you make a joke about robots?,Joke
+What’s your best joke about food?,Joke
+Do you know any jokes about work?,Joke
+Can you tell a school-related joke?,Joke
+Got any Christmas jokes?,Joke
+What’s the funniest pun you've got?,Joke
+Do you know any corny jokes?,Joke
+Can you say a cheesy joke?,Joke
+Tell me a joke.,Joke
+Make me laugh.,Joke
+Do you know any funny jokes?,Joke
+Say something funny.,Joke
+Can you tell me a dad joke?,Joke
+I need a good laugh.,Joke
+Tell me a knock-knock joke.,Joke
+Got any puns?,Joke
+Can you share a one-liner?,Joke
+What’s the funniest joke you know?,Joke
+Entertain me with a joke.,Joke
+Can you cheer me up with a joke?,Joke
+Tell a light-hearted joke.,Joke
+Say a witty joke.,Joke
+Tell a programmer joke.,Joke
+Do you know any animal jokes?,Joke
+Tell a science-related joke.,Joke
+Can you make a joke about robots?,Joke
+What’s your best joke about food?,Joke
+Do you know any jokes about work?,Joke
+Can you tell a school-related joke?,Joke
+Got any Christmas jokes?,Joke
+What’s the funniest pun you've got?,Joke
+Do you know any corny jokes?,Joke
+Can you say a cheesy joke?,Joke
