@@ -1,25 +1,29 @@
-import pyttsx3
-import speech_recognition as sr
-import pyaudio
-import webbrowser
 import datetime
-import pywhatkit
-import os
-import yfinance as yf
-import pyjokes
-from youtubesearchpython import VideosSearch
 import pyaudio
-import wave
-import whisper
-import gradio as gr
-import time
-import warnings
+import pyjokes
+import pyttsx3
+import pywhatkit
+import re
 import torch
-device = "cuda" if torch.cuda.is_available() else "cpu"
-model = whisper.load_model("medium.en", device=device)
+import wave
+import webbrowser
+import whisper
+import wikipedia
+import platform
+import speech_recognition as sr
+import yfinance as yf
+from translate import Translator
+from wikipedia import wikipedia
+from youtubesearchpython import VideosSearch
+from managers import InputManager, VolumeManager
+
+OS = platform.system()
+DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+MODEL = whisper.load_model("medium.en", device=DEVICE)
+
 
 def transform():
-    #speaking('Talk')
+    # speaking('Talk')
     r = sr.Recognizer()
     with sr.Microphone() as source:
         r.pause_threshold = 0.5
@@ -35,16 +39,19 @@ def transform():
             return "I am waiting"
         except:
             return "I am waiting"
-            
+
+
 def speaking(message):
     engine = pyttsx3.init()
     engine.say(message)
     engine.runAndWait()
-    
+
+
 def whisper_ai(model):
     result = model.transcribe("voice.wav")
     return result['text']
-    
+
+
 def query_day():
     day = datetime.date.today()
     weekday = day.weekday()
@@ -53,38 +60,41 @@ def query_day():
     }
     try:
         speaking(f'Today is {mapping[weekday]}')
-    except:
+    except Exception as e:
         pass
-        
+
+
 def query_time():
     time = datetime.datetime.now().strftime("%H:%M:%S")
     speaking(f"It is {time[0:2]} o'clock and {time[3:5]} minutes")
-    
+
+
 def startup():
     speaking("""Hi, my name is James; I'm a Virtual Assistant. How can I help you""")
-    
-def Record_audio():
-    CHUNK = 1024
-    FORMAT = pyaudio.paInt16
-    CHANNELS = 1
-    RATE = 44100
-    RECORD_SECONDS = 8
-    WAVE_OUTPUT_FILENAME = "voice.wav"
+
+
+def record_audio():
+    chunk = 1024
+    format = pyaudio.paInt16
+    channels = 1
+    rate = 44100
+    record_seconds = 8
+    wave_output_filename = "voice.wav"
 
     p = pyaudio.PyAudio()
 
-    stream = p.open(format=FORMAT,
-                    channels=CHANNELS,
-                    rate=RATE,
+    stream = p.open(format=format,
+                    channels=channels,
+                    rate=rate,
                     input=True,
-                    frames_per_buffer=CHUNK)
+                    frames_per_buffer=chunk)
 
     print("* recording")
 
     frames = []
 
-    for i in range(0, int(RATE / CHUNK * RECORD_SECONDS)):
-        data = stream.read(CHUNK)
+    for i in range(0, int(rate / chunk * record_seconds)):
+        data = stream.read(chunk)
         frames.append(data)
 
     print("* done recording")
@@ -93,95 +103,203 @@ def Record_audio():
     stream.close()
     p.terminate()
 
-    wf = wave.open(WAVE_OUTPUT_FILENAME, 'wb')
-    wf.setnchannels(CHANNELS)
-    wf.setsampwidth(p.get_sample_size(FORMAT))
-    wf.setframerate(RATE)
+    wf = wave.open(wave_output_filename, 'wb')
+    wf.setnchannels(channels)
+    wf.setsampwidth(p.get_sample_size(format))
+    wf.setframerate(rate)
     wf.writeframes(b''.join(frames))
     wf.close()
-    
+
+
 def querying():
-    startup()
+    input_manager = InputManager()
+    volume_manager = VolumeManager(OS)
     start = True
-    while(start):
+    startup()
+
+    while start:
+        print('Listening...')
         s = transform().lower()
-        if "james"in s:
-            Record_audio()
-            q = whisper_ai(model).lower()
-            print(q)
-            #TODO: Make a Python 3.10 Version with Switch Statement and keep this one as 3.9/Legacy
-            if "start youtube" in q:
-                speaking("Starting youtube. Just a second")
-                webbrowser.open("https://www.youtube.com")
-                continue
 
-            elif "start webbrowser" in q:
-                speaking("opening browser")
-                webbrowser.open("https://www.google.com")
-                continue
+        if "james" in s:
+            record_audio()
+            user_input = whisper_ai(MODEL).lower()
+            print(user_input)
+            df = input_manager.split_and_categorize(user_input)
 
-            elif "what day is it" in q:
-                query_day()
-                continue
+            if "shut down" in user_input or 'shutdown' in user_input:
+                    speaking("ok I am shuting down")
+                    break
+            
+            df = input_manager.split_and_categorize(user_input)
 
-            elif "what time is it" in q:
-                query_time()
-                continue
+            # Loop through each row in the DataFrame
+            for _, row in df.iterrows():
+                category = row['Predicted Intent']
+                sentence = row['sentences']
+                keywords = sentence.split()
+                #TODO: Make a Python 3.10 Version with Switch Statement and keep this one as 3.9/Legacy
+                if category == "Initialize":
+                    if "google" in keywords:
+                        speaking("Starting google. Just a second")
+                        webbrowser.open("https://www.google.com")
+                        continue
+                    elif "youtube" in keywords:
+                        speaking("Starting youtube. Just a second")
+                        webbrowser.open("https://www.youtube.com")
+                        continue
+                    elif "amazon" in keywords:
+                        speaking("Starting amazon. Just a second")
+                        webbrowser.open("https://www.amazon.com")
+                        continue
+                    elif "wikipedia" in keywords:
+                        speaking("Starting wikipedia. Just a second")
+                        webbrowser.open("https://www.wikipedia.org")
+                        continue
 
-            elif "shut down" in q or 'shutdown' in q:
-                speaking("ok I am shuting down")
-                break
+                elif category == "YouTubeVideos" or category == "PlayMusic":
+                    if "start" in keywords and "youtube" in keywords:
+                        speaking("Starting youtube. Just a second")
+                        webbrowser.open("https://www.youtube.com")
+                        continue
 
-            elif "from wikipedia" in q:
-                speaking("checking wikipedia")
-                q = q.replace("wikipedia", "")
-                result = wikipedia.summary(q,sentences=2)
-                speaking("found on wikipedia")
-                speaking(result)
-                continue
+                    elif "play" in keywords or "watch" in keywords:
+                        search = ""
+                        try:
+                            search = " ".join(keywords[keywords.index("play") + 1:])
+                        except:
+                            search = " ".join(keywords[keywords.index("watch") + 1:])
+                        video_search = VideosSearch(search, limit=1)
+                        video_search = VideosSearch.result()
+                        video_link = video_search['result'][0]['link']
+                        video_name = video_search['result'][0]['title']
+                        print(f'Playing {video_name}')
+                        webbrowser.open(video_link)
+                        continue
 
-            elif "your name" in q:
-                speaking("I am David. Your Voice Asistant")
-                continue
+                elif category == "InternetSearch":
+                    if "wikipedia" in keywords:
+                        speaking("checking wikipedia")
+                        q = " ".join(keywords[keywords.index("wikipedia") + 1:])
+                        result = wikipedia.summary(q, sentences=2)
+                        speaking("found on wikipedia")
+                        speaking(result)
+                        continue
 
-            elif "search web" in q:
-                q = q.replace("search web","")
-                pywhatkit.search(q)
-                speaking("this is what i found")
-                continue
+                    elif "google" in keywords:
+                        speaking("checking on google")
+                        q = " ".join(keywords[keywords.index("google") + 1:])
+                        result = pywhatkit.search(q)
+                        speaking("this is what i found")
+                        speaking(result)
+                        continue
 
-            elif "play" in q:
-                q = q.replace("play","")
-                speaking(f"playing {q}")
-                pywhatkit.playonyt(q)
-                continue
+                    elif "search" in keywords:
+                        speaking("checking on google")
+                        q = " ".join(keywords[keywords.index("search") + 1:])
+                        result = pywhatkit.search(q)
+                        speaking("this is what i found")
+                        speaking(result)
+                        continue
 
-            elif "joke" in q:
-                speaking(pyjokes.get_joke())
-                continue
+                    else:
+                        speaking("checking on google")
+                        result = pywhatkit.search(sentence)
+                        speaking("this is what i found")
+                        speaking(result)
+                        continue
 
-            elif "stock price" in q:
-                search = q.split("of")[-1].strip()
-                lookup = {"apple":"AAPL",
-                         "amazon":"AMZN",
-                         "google":"GOOGL"}
-                try:
-                    stock = lookup[search]
-                    stock = yf.Ticker(stock)
-                    currentprice = stock.info["regularMarketPrice"]
-                    speaking(f"found it, the price for {search} is {currentprice}")
+                elif category == "Time":
+                    if "day" in keywords:
+                        query_day()
+                        continue
+
+                    elif "time" in keywords:
+                        query_time()
+                        continue
+
+                    elif "reminder" in keywords:
+                        speaking("Sorry, I cannot set reminders at the moment")
+                        continue
+
+
+                elif category == "Translate":
+                    translator = Translator(to_lang='es')
+                    try:
+                        translation = translator.translate(user_input[keywords.index("translate") + 1:])
+                        speaking(f"Here is the translation: {translation}")
+                    except Exception as e:
+                        speaking(f"An error occurred during translation: {e}")
                     continue
-                except:
-                    speaking(f"sorry I have no data for {search}")
+
+                elif category == "StockMarketQuery":
+                    # Predefined stock lookup dictionary
+                    lookup = {
+                        "Apple": "AAPL",
+                        "Amazon": "AMZN",
+                        "Google": "GOOGL",
+                    }
+                    for company, symbol in lookup.items():
+                        try:
+                            stock = yf.Ticker(symbol)
+                            current_price = stock.info.get("regularMarketPrice", "unavailable")
+
+                            if current_price != "unavailable":
+                                speaking(f"The current price for {company} is {current_price}.")
+                            else:
+                                speaking(f"Price data for {company} is currently unavailable.")
+                        except Exception as e:
+                            speaking(f"Sorry, I couldn't retrieve data for {company}.")
+
+                elif category == "Joke":
+                    speaking(pyjokes.get_joke())
+                    continue
+
+                elif category == "Maps":
+                    speaking("Sorry, I cannot provide directions at the moment")
+                    continue
+
+                elif category == "SetVolume":
+                    string = re.search(r'-?\d+\.?\d*', user_input)
+                    if string:
+                        number_str = string.group()
+                        number = float(number_str) if '.' in number_str else int(number_str)
+                        speaking(volume_manager.increase(number))
+                    else:
+                        speaking(volume_manager.increase(10))
+                    continue
+
+                elif category == "IncreaseVolume":
+                    string = re.search(r'-?\d+\.?\d*', user_input)
+                    if string:
+                        number_str = string.group()
+                        number = float(number_str) if '.' in number_str else int(number_str)
+                        speaking(volume_manager.increase(number))
+                    else:
+                        speaking(volume_manager.increase(10))
+                    continue
+
+                elif category == "DecreaseVolume":
+                    string = re.search(r'-?\d+\.?\d*', user_input)
+                    if string:
+                        number_str = string.group()
+                        number = float(number_str) if '.' in number_str else int(number_str)
+                        speaking(volume_manager.decrease(number))
+                    else:
+                        speaking(volume_manager.decrease(10))
+                    continue
+
+                elif category == "MuteVolume":
+                    if volume_manager.is_muted():
+                        volume_manager.mute()
+                        speaking("Volume muted")
+                    else:
+                        speaking("Volume is already muted")
+                    continue
+
+            else:
+                speaking("I am not sure what you are asking. Can you repeat?")
                 continue
-            elif 'play on youtube' in q:
-                search = q.split('youtube')[-1].strip()
-                videoSearch = VideosSearch(search, limit=1)
-                videoSearch = VideosSearch.result()
-                video_link = videosSearch['result'][0]['link']
-                video_name = videosSearch['result'][0]['title']
-                print(f'Playing {video_name}')
-                webbrowser.open(video_link)
-                continue
-                #TODO: Default Case that resets the process and says "I'm sorry, I didn't quite understand - please use one of my Listed Functions
+
+
 querying()
